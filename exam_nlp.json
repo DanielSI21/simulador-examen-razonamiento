@@ -1,0 +1,933 @@
+{
+    "exam": {
+        "title": "Simulador de examen de Procesamiento de Lenguaje Natural",
+        "version": "1.0",
+        "language": "es",
+        "settings": {
+            "show_feedback_on_correct": true,
+            "show_feedback_on_incorrect": true,
+            "shuffle_questions": false,
+            "shuffle_options": true,
+            "pass_mode": "single_answer"
+        },
+        "sections": [
+            {
+                "id": "verdadero_falso",
+                "title": "Verdadero o Falso",
+                "type": "true_false",
+                "topics": [
+                    {
+                        "id": "fundamentos_pln",
+                        "title": "Fundamentos del PLN",
+                        "questions": [
+                            {
+                                "id": 13,
+                                "text": "El procesamiento del lenguaje natural implica el conocimiento de tres áreas: computación, inteligencia artificial y audiología.",
+                                "correct_option": "Falso",
+                                "incorrect_options": [
+                                    "Verdadero"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. El PLN se relaciona con computación, lingüística e inteligencia artificial, no con audiología como área base.",
+                                    "incorrect": "Incorrecto. La formulación incluye 'audiología', pero las áreas base del PLN no se definen así."
+                                },
+                                "topic": "Fundamentos del PLN",
+                                "difficulty": "media",
+                                "question_status": "Pregunta confirmada"
+                            },
+                            {
+                                "id": 19,
+                                "text": "La base del habla y del procesamiento del lenguaje natural son las palabras.",
+                                "correct_option": "Falso",
+                                "incorrect_options": [
+                                    "Verdadero"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. Las palabras son importantes, pero el procesamiento del lenguaje involucra múltiples niveles: fonético, morfológico, sintáctico, semántico y pragmático.",
+                                    "incorrect": "Incorrecto. Reducir la base del PLN solo a las palabras deja fuera otros niveles esenciales del lenguaje."
+                                },
+                                "topic": "Fundamentos del PLN",
+                                "difficulty": "media",
+                                "question_status": "Pregunta confirmada"
+                            },
+                            {
+                                "id": 20,
+                                "text": "Un ejemplo de aplicación del procesamiento de lenguaje natural son los sistemas de diálogo como Siri y Alexa.",
+                                "correct_option": "Verdadero",
+                                "incorrect_options": [
+                                    "Falso"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. Los asistentes virtuales son una aplicación clásica del PLN.",
+                                    "incorrect": "Incorrecto. Siri y Alexa sí son ejemplos de sistemas de diálogo basados en PLN."
+                                },
+                                "topic": "Fundamentos del PLN",
+                                "difficulty": "fácil",
+                                "question_status": "Pregunta confirmada"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "corpus_y_anotacion",
+                        "title": "Corpus y anotación",
+                        "questions": [
+                            {
+                                "id": 14,
+                                "text": "En un corpus etiquetado, las palabras presentan información sintáctica, semántica o pragmática.",
+                                "correct_option": "Verdadero",
+                                "incorrect_options": [
+                                    "Falso"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. Un corpus etiquetado puede incluir distintos niveles de anotación lingüística.",
+                                    "incorrect": "Incorrecto. Precisamente un corpus etiquetado incorpora información adicional sobre las palabras o expresiones."
+                                },
+                                "topic": "Corpus y anotación",
+                                "difficulty": "fácil",
+                                "question_status": "Pregunta confirmada"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "pragmatica_y_conversacion",
+                        "title": "Pragmática y conversación",
+                        "questions": [
+                            {
+                                "id": 15,
+                                "text": "Turnos de palabra, actos de habla, puntos de coincidencia entre interlocutores, estructura de la conversación e información implícita en la conversación; son las características de las conversaciones entre humanos.",
+                                "correct_option": "Verdadero",
+                                "incorrect_options": [
+                                    "Falso"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. Todos esos elementos forman parte del análisis conversacional y pragmático.",
+                                    "incorrect": "Incorrecto. Esos elementos sí caracterizan las conversaciones humanas."
+                                },
+                                "topic": "Pragmática y conversación",
+                                "difficulty": "media",
+                                "question_status": "Pregunta confirmada"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "sintaxis",
+                        "title": "Sintaxis",
+                        "questions": [
+                            {
+                                "id": 16,
+                                "text": "La superdiagonal de la matriz de análisis sintáctico contiene las categorías gramaticales para cada una de las palabras de la oración.",
+                                "correct_option": "Verdadero",
+                                "incorrect_options": [
+                                    "Falso"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. La superdiagonal en la matriz contiene las categorías gramaticales para cada una de las palabras de la oración; las diagonales superiores representan constituyentes sintácticos de tramos cada vez mayores.",
+                                    "incorrect": "Incorrecto. Según el material de la materia, la superdiagonal sí contiene las categorías gramaticales de cada palabra, y las diagonales por encima de ella contienen los constituyentes sintácticos."
+                                },
+                                "topic": "Sintaxis",
+                                "difficulty": "alta",
+                                "notes": "La explicación se ajustó para reflejar mejor el funcionamiento general de las tablas de análisis sintáctico.",
+                                "question_status": "Pregunta confirmada"
+                            },
+                            {
+                                "id": 46,
+                                "text": "Cuando se utiliza el algoritmo CKY, la gramática solo puede tener a la derecha dos símbolos terminales o un símbolo no terminal.",
+                                "correct_option": "Falso",
+                                "incorrect_options": [
+                                    "Verdadero"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. CKY trabaja con gramáticas en Forma Normal de Chomsky, que restringen las producciones de otra manera.",
+                                    "incorrect": "Incorrecto. La descripción dada no corresponde correctamente a las restricciones de CKY."
+                                },
+                                "topic": "Sintaxis",
+                                "difficulty": "alta",
+                                "question_status": "Pregunta confirmada"
+                            },
+                            {
+                                "correct_option": "Verdadero",
+                                "text": "En el algoritmo CKY, la gramática debe estar en forma normal de Chomsky para que el análisis sea válido.",
+                                "id": 47,
+                                "feedback": {
+                                    "correct": "Correcto. CKY opera con gramáticas en forma normal de Chomsky.",
+                                    "incorrect": "Incorrecto. El algoritmo CKY requiere una gramática en forma normal de Chomsky."
+                                },
+                                "difficulty": "media",
+                                "incorrect_options": [
+                                    "Falso"
+                                ],
+                                "question_status": "Pregunta adicional",
+                                "topic": "Sintaxis"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "agentes_conversacionales",
+                        "title": "Agentes conversacionales",
+                        "questions": [
+                            {
+                                "id": 17,
+                                "text": "Se les llama agentes conversacionales simbólicos a los que integran el habla con otras modalidades como los gráficos o las imágenes.",
+                                "correct_option": "Falso",
+                                "incorrect_options": [
+                                    "Verdadero"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. Esa descripción corresponde a agentes multimodales, no necesariamente a agentes simbólicos.",
+                                    "incorrect": "Incorrecto. Integrar múltiples modalidades no define a los agentes conversacionales simbólicos."
+                                },
+                                "topic": "Agentes conversacionales",
+                                "difficulty": "media",
+                                "question_status": "Pregunta confirmada"
+                            },
+                            {
+                                "id": 18,
+                                "text": "Los agentes conversacionales dedicados están diseñados para desarrollar una tarea en particular y están restringidos a un dominio de aplicación.",
+                                "correct_option": "Verdadero",
+                                "incorrect_options": [
+                                    "Falso"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. Esa es justamente la definición de un agente conversacional dedicado.",
+                                    "incorrect": "Incorrecto. Los agentes dedicados sí están enfocados en tareas y dominios específicos."
+                                },
+                                "topic": "Agentes conversacionales",
+                                "difficulty": "fácil",
+                                "question_status": "Pregunta confirmada"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "recursos_lexicos",
+                        "title": "Recursos léxicos",
+                        "questions": [
+                            {
+                                "id": 45,
+                                "text": "Un tesauro tiene las mismas características y uso que un corpus lingüístico.",
+                                "correct_option": "Falso",
+                                "incorrect_options": [
+                                    "Verdadero"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. Un tesauro es un recurso léxico-semántico; un corpus es una colección de textos.",
+                                    "incorrect": "Incorrecto. Tesauro y corpus cumplen funciones distintas."
+                                },
+                                "topic": "Recursos léxicos",
+                                "difficulty": "fácil",
+                                "question_status": "Pregunta confirmada"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "opcion_multiple",
+                "title": "Opción múltiple",
+                "type": "multiple_choice",
+                "topics": [
+                    {
+                        "id": "fundamentos_pln",
+                        "title": "Fundamentos del PLN",
+                        "questions": [
+                            {
+                                "id": 3,
+                                "text": "El procesamiento del lenguaje natural es un campo que tiene como objetivo que las máquinas sean capaces de realizar tareas que involucren",
+                                "correct_option": "al lenguaje humano.",
+                                "incorrect_options": [
+                                    "lenguajes formales",
+                                    "lenguajes de programación"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. El PLN se enfoca en tareas relacionadas con el lenguaje humano.",
+                                    "incorrect": "Incorrecto. El PLN no se centra en lenguajes formales ni de programación, sino en lenguaje humano."
+                                },
+                                "topic": "Fundamentos del PLN",
+                                "difficulty": "fácil",
+                                "question_status": "Pregunta confirmada"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "morfologia_y_lexico",
+                        "title": "Morfología y léxico",
+                        "questions": [
+                            {
+                                "id": 5,
+                                "text": "El ______ determina si una cadena de caracteres conforma una palabra correcta.",
+                                "correct_option": "Reconocimiento morfológico",
+                                "incorrect_options": [
+                                    "Reconocimiento sintáctico",
+                                    "Reconocimiento léxico"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. El reconocimiento morfológico determina si una cadena de caracteres constituye una palabra correcta. Para ello se conecta el lexicón con una máquina de estados finitos que modela las reglas morfotácticas y valida el recorrido desde un estado inicial hasta uno final.",
+                                    "incorrect": "Incorrecto. La validación de si una cadena forma una palabra correcta corresponde al reconocimiento morfológico. El reconocimiento sintáctico analiza relaciones entre palabras en una oración, y el reconocimiento léxico alude al inventario de entradas, no a la validación morfotáctica de una palabra."
+                                },
+                                "topic": "Morfología y léxico",
+                                "difficulty": "media",
+                                "question_status": "Pregunta confirmada"
+                            },
+                            {
+                                "id": 6,
+                                "text": "Es la unidad mínima que compone una palabra y que es capaz de expresar un significado.",
+                                "correct_option": "Morfema",
+                                "incorrect_options": [
+                                    "Sintagma",
+                                    "Lexicón"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. El morfema es la unidad mínima con significado.",
+                                    "incorrect": "Incorrecto. Un sintagma es una unidad sintáctica y un lexicón es un inventario léxico."
+                                },
+                                "topic": "Morfología y léxico",
+                                "difficulty": "fácil",
+                                "question_status": "Pregunta confirmada"
+                            },
+                            {
+                                "id": 7,
+                                "text": "Es el morfema que conforma la raíz o parte invariante de la palabra y proporciona el significado principal de la palabra.",
+                                "correct_option": "Lexema",
+                                "incorrect_options": [
+                                    "Sintagma",
+                                    "Lexicón"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. El lexema aporta el significado base de la palabra.",
+                                    "incorrect": "Incorrecto. La raíz significativa de la palabra corresponde al lexema."
+                                },
+                                "topic": "Morfología y léxico",
+                                "difficulty": "fácil",
+                                "question_status": "Pregunta confirmada"
+                            },
+                            {
+                                "id": 30,
+                                "text": "Es una colección de textos representativos de una lengua.",
+                                "correct_option": "Corpus",
+                                "incorrect_options": [
+                                    "Discurso",
+                                    "Lexicón"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. Un corpus es un conjunto de textos usado para análisis lingüístico.",
+                                    "incorrect": "Incorrecto. Un lexicón es un catálogo de palabras, no una colección de textos."
+                                },
+                                "topic": "Morfología y léxico",
+                                "difficulty": "fácil",
+                                "question_status": "Pregunta confirmada"
+                            },
+                            {
+                                "id": 31,
+                                "text": "Es un catálogo de las palabras de una lengua.",
+                                "correct_option": "Lexicón",
+                                "incorrect_options": [
+                                    "Corpus",
+                                    "Discurso"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. El lexicón reúne las palabras de una lengua.",
+                                    "incorrect": "Incorrecto. La definición corresponde a lexicón, no a corpus ni discurso."
+                                },
+                                "topic": "Morfología y léxico",
+                                "difficulty": "fácil",
+                                "question_status": "Pregunta confirmada"
+                            },
+                            {
+                                "id": 32,
+                                "text": "El _____ es la raíz de la palabra, representa el significado y es la forma usada en diccionarios.",
+                                "correct_option": "Lema",
+                                "incorrect_options": [
+                                    "Modo",
+                                    "Sentido"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. El lema es la forma canónica usada en diccionarios.",
+                                    "incorrect": "Incorrecto. La forma canónica de diccionario se denomina lema."
+                                },
+                                "topic": "Morfología y léxico",
+                                "difficulty": "media",
+                                "question_status": "Pregunta confirmada"
+                            },
+                            {
+                                "id": 36,
+                                "text": "Es el proceso para identificar las partes de la oración asignando categorías gramaticales.",
+                                "correct_option": "Etiquetado morfosintáctico",
+                                "incorrect_options": [
+                                    "Análisis morfológico",
+                                    "Análisis semántico"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. El etiquetado morfosintáctico asigna categorías gramaticales a las palabras.",
+                                    "incorrect": "Incorrecto. La tarea descrita corresponde al etiquetado morfosintáctico."
+                                },
+                                "topic": "Morfología y léxico",
+                                "difficulty": "media",
+                                "question_status": "Pregunta confirmada"
+                            },
+                            {
+                                "id": 37,
+                                "text": "Tarea que consiste en separar las palabras para su análisis.",
+                                "correct_option": "Tokenizar",
+                                "incorrect_options": [
+                                    "Normalizar",
+                                    "Lematizar"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. Tokenizar es dividir el texto en unidades como palabras o signos.",
+                                    "incorrect": "Incorrecto. Separar palabras para su análisis corresponde a la tokenización."
+                                },
+                                "topic": "Morfología y léxico",
+                                "difficulty": "fácil",
+                                "question_status": "Pregunta confirmada"
+                            },
+                            {
+                                "correct_option": "Discurso",
+                                "text": "El ______ se refiere al uso del lenguaje en contexto y a unidades mayores que la oración.",
+                                "id": 48,
+                                "feedback": {
+                                    "correct": "Correcto. El discurso estudia el lenguaje en uso dentro de un contexto comunicativo.",
+                                    "incorrect": "Incorrecto. El uso del lenguaje en contexto corresponde al discurso."
+                                },
+                                "difficulty": "media",
+                                "incorrect_options": [
+                                    "Corpus",
+                                    "Lexicón"
+                                ],
+                                "question_status": "Pregunta adicional",
+                                "topic": "Morfología y léxico"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "sintaxis",
+                        "title": "Sintaxis",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "text": "Proceso en el que se determinan las relaciones estructurales entre palabras.",
+                                "correct_option": "Análisis sintáctico",
+                                "incorrect_options": [
+                                    "Etiquetado morfosintáctico",
+                                    "Análisis morfológico"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. El análisis sintáctico estudia las relaciones estructurales entre palabras en una oración.",
+                                    "incorrect": "Incorrecto. La definición corresponde a análisis sintáctico."
+                                },
+                                "topic": "Sintaxis",
+                                "difficulty": "fácil",
+                                "question_status": "Pregunta confirmada"
+                            },
+                            {
+                                "id": 2,
+                                "text": "Se produce cuando se encuentran varios árboles sintácticos durante el análisis y no se puede decidir cuál es el mejor.",
+                                "correct_option": "Ambigüedad",
+                                "incorrect_options": [
+                                    "Polinomia",
+                                    "Duda léxica"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. La presencia de varios árboles posibles indica ambigüedad sintáctica.",
+                                    "incorrect": "Incorrecto. Cuando hay varios análisis sintácticos válidos, se trata de ambigüedad."
+                                },
+                                "topic": "Sintaxis",
+                                "difficulty": "media",
+                                "question_status": "Pregunta confirmada"
+                            },
+                            {
+                                "id": 10,
+                                "text": "Palabra o secuencia de palabras que realizan una función conjunta dentro de la estructura jerárquica de la oración.",
+                                "correct_option": "Constituyente sintáctico",
+                                "incorrect_options": [
+                                    "Lema",
+                                    "Morfema"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. Un constituyente sintáctico funciona como unidad dentro de la oración.",
+                                    "incorrect": "Incorrecto. La definición corresponde a constituyente sintáctico."
+                                },
+                                "topic": "Sintaxis",
+                                "difficulty": "media",
+                                "question_status": "Pregunta confirmada"
+                            },
+                            {
+                                "id": 11,
+                                "text": "En la gramática tradicional se les llama ______ a los constituyentes sintácticos compuesto de dos o más elementos.",
+                                "correct_option": "Sintagmas",
+                                "incorrect_options": [
+                                    "Redes semánticas",
+                                    "Ontologías"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. En gramática tradicional, esos constituyentes se llaman sintagmas.",
+                                    "incorrect": "Incorrecto. No se trata de recursos de representación del conocimiento, sino de sintagmas."
+                                },
+                                "topic": "Sintaxis",
+                                "difficulty": "fácil",
+                                "question_status": "Pregunta confirmada"
+                            },
+                            {
+                                "id": 22,
+                                "text": "Esta estrategia de análisis se utiliza para la integración del análisis sintáctico y semántico",
+                                "correct_option": "Ascendente",
+                                "incorrect_options": [
+                                    "Descendente",
+                                    "De anchura"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. La estrategia ascendente favorece la integración de información sintáctica y semántica.",
+                                    "incorrect": "Incorrecto. El análisis ascendente parte de las palabras y va construyendo constituyentes mayores, lo que facilita incorporar información semántica conforme se reconocen estructuras válidas."
+                                },
+                                "topic": "Sintaxis",
+                                "difficulty": "alta",
+                                "question_status": "Pregunta confirmada"
+                            },
+                            {
+                                "id": 40,
+                                "text": "Un sintagma ______ tiene núcleo sustantivo, pronombre o palabra sustantivada.",
+                                "correct_option": "Nominal",
+                                "incorrect_options": [
+                                    "Adjetival",
+                                    "Preposicional"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. Un sintagma nominal se organiza alrededor de un núcleo nominal.",
+                                    "incorrect": "Incorrecto. La descripción corresponde al sintagma nominal."
+                                },
+                                "topic": "Sintaxis",
+                                "difficulty": "fácil",
+                                "question_status": "Pregunta confirmada"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "semantica_y_relaciones_lexicas",
+                        "title": "Semántica y relaciones léxicas",
+                        "questions": [
+                            {
+                                "id": 4,
+                                "text": "La ______ es una forma de emplear una palabra en un sentido distinto al que propiamente le corresponde, pero con el que tiene algún tipo de conexión.",
+                                "correct_option": "Metonimia",
+                                "incorrect_options": [
+                                    "Meronimia",
+                                    "Polisemia"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. La metonimia usa una palabra en un sentido relacionado con el original.",
+                                    "incorrect": "Incorrecto. La definición describe la metonimia: se nombra algo mediante otro término con el que guarda una relación cercana, como causa-efecto, continente-contenido o autor-obra."
+                                },
+                                "topic": "Semántica y relaciones léxicas",
+                                "difficulty": "media",
+                                "question_status": "Pregunta confirmada"
+                            },
+                            {
+                                "id": 8,
+                                "text": "Esquema de representación gráfica del significado, donde los objetos son nodos y las relaciones son enlaces entre ellos.",
+                                "correct_option": "Redes semánticas",
+                                "incorrect_options": [
+                                    "Redes pragmáticas",
+                                    "Redes neuronales"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. Las redes semánticas representan conceptos y relaciones entre ellos.",
+                                    "incorrect": "Incorrecto. La descripción corresponde a redes semánticas."
+                                },
+                                "topic": "Semántica y relaciones léxicas",
+                                "difficulty": "fácil",
+                                "question_status": "Pregunta confirmada"
+                            },
+                            {
+                                "id": 9,
+                                "text": "Un ______ es una representación de uno de los aspectos del significado de una palabra.",
+                                "correct_option": "Sentido",
+                                "incorrect_options": [
+                                    "Morfema",
+                                    "Sintagma"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. Un sentido representa una acepción o aspecto del significado.",
+                                    "incorrect": "Incorrecto. La opción correcta es sentido."
+                                },
+                                "topic": "Semántica y relaciones léxicas",
+                                "difficulty": "fácil",
+                                "question_status": "Pregunta confirmada"
+                            },
+                            {
+                                "id": 33,
+                                "text": "La ______ es la relación entre palabras cuando el significado de una está incluido en el de otra.",
+                                "correct_option": "Hiponimia",
+                                "incorrect_options": [
+                                    "Sinonimia",
+                                    "Homonimia"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. La hiponimia implica inclusión semántica.",
+                                    "incorrect": "Incorrecto. La relación descrita es de hiponimia."
+                                },
+                                "topic": "Semántica y relaciones léxicas",
+                                "difficulty": "media",
+                                "question_status": "Pregunta confirmada"
+                            },
+                            {
+                                "id": 34,
+                                "text": "La ______ es la relación entre palabras cuando poseen más de un significado.",
+                                "correct_option": "Polisemia",
+                                "incorrect_options": [
+                                    "Homonimia",
+                                    "Sinonimia"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. La polisemia ocurre cuando una palabra tiene varios significados relacionados.",
+                                    "incorrect": "Incorrecto. La relación descrita es polisemia."
+                                },
+                                "topic": "Semántica y relaciones léxicas",
+                                "difficulty": "media",
+                                "question_status": "Pregunta confirmada"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "representacion_del_conocimiento_y_logica",
+                        "title": "Representación del conocimiento y lógica",
+                        "questions": [
+                            {
+                                "id": 12,
+                                "text": "Usa un lenguaje constituido por objetos y relaciones para permitir la representación y manipulación del conocimiento",
+                                "correct_option": "Lógica de primer orden",
+                                "incorrect_options": [
+                                    "Lógica semántica",
+                                    "Lógica gramatical"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. La lógica de primer orden permite representar objetos, relaciones y propiedades.",
+                                    "incorrect": "Incorrecto. La definición corresponde a la lógica de primer orden."
+                                },
+                                "topic": "Representación del conocimiento y lógica",
+                                "difficulty": "media",
+                                "question_status": "Pregunta confirmada"
+                            },
+                            {
+                                "id": 35,
+                                "text": "En la lógica descriptiva, la ______ comprueba si una categoría es subconjunto de otra.",
+                                "correct_option": "Subsunción",
+                                "incorrect_options": [
+                                    "Clasificación",
+                                    "Verificación"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. La subsunción determina relaciones de inclusión entre conceptos.",
+                                    "incorrect": "Incorrecto. La operación correcta en lógica descriptiva es la subsunción."
+                                },
+                                "topic": "Representación del conocimiento y lógica",
+                                "difficulty": "alta",
+                                "question_status": "Pregunta confirmada"
+                            },
+                            {
+                                "id": 43,
+                                "text": "Las ______ representan acciones, participantes y objetos en dependencias conceptuales.",
+                                "correct_option": "Primitivas",
+                                "incorrect_options": [
+                                    "Reactivas",
+                                    "Sintagmas"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. En dependencias conceptuales se emplean primitivas para modelar acciones y participantes.",
+                                    "incorrect": "Incorrecto. La opción adecuada es primitivas."
+                                },
+                                "topic": "Representación del conocimiento y lógica",
+                                "difficulty": "alta",
+                                "question_status": "Pregunta confirmada"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "desambiguacion_y_algoritmos",
+                        "title": "Desambiguación y algoritmos",
+                        "questions": [
+                            {
+                                "id": 21,
+                                "text": "La ______ consiste en el proceso que asigna a las palabras de una oración su categoría gramatical.",
+                                "correct_option": "Desambiguación",
+                                "incorrect_options": [
+                                    "Tokenización",
+                                    "Concatenación"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. En la lista proporcionada se asocia esta definición con desambiguación.",
+                                    "incorrect": "Incorrecto. Según la lista base, la respuesta esperada es desambiguación."
+                                },
+                                "topic": "Desambiguación y algoritmos",
+                                "difficulty": "media",
+                                "notes": "La definición puede solaparse con etiquetado morfosintáctico, pero se respetó la respuesta de la fuente.",
+                                "question_status": "Pregunta confirmada"
+                            },
+                            {
+                                "id": 23,
+                                "text": "El algoritmo basado en ______ se entrena con una muestra léxica de un conjunto de palabras ambiguas y sus posibles sentidos, así como un corpus de palabras ya etiquetadas.",
+                                "correct_option": "aprendizaje supervisado",
+                                "incorrect_options": [
+                                    "conocimiento",
+                                    "aprendizaje semi supervisado"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. El aprendizaje supervisado requiere ejemplos previamente etiquetados.",
+                                    "incorrect": "Incorrecto. La descripción corresponde al aprendizaje supervisado."
+                                },
+                                "topic": "Desambiguación y algoritmos",
+                                "difficulty": "media",
+                                "question_status": "Pregunta confirmada"
+                            },
+                            {
+                                "id": 24,
+                                "text": "El algoritmo basado en ______ utiliza grandes bases de datos en lugar de corpus anotados.",
+                                "correct_option": "conocimiento",
+                                "incorrect_options": [
+                                    "aprendizaje supervisado",
+                                    "aprendizaje semi supervisado"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. Los enfoques basados en conocimiento usan diccionarios, ontologías o bases léxicas.",
+                                    "incorrect": "Incorrecto. La descripción corresponde a algoritmos basados en conocimiento."
+                                },
+                                "topic": "Desambiguación y algoritmos",
+                                "difficulty": "media",
+                                "question_status": "Pregunta confirmada"
+                            },
+                            {
+                                "id": 25,
+                                "text": "El algoritmo de ______ busca identificar la coincidencia entre las palabras del contexto y las del diccionario con sus sentidos.",
+                                "correct_option": "Lesk",
+                                "incorrect_options": [
+                                    "Markov",
+                                    "Chomsky"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. El algoritmo de Lesk compara el contexto con definiciones de diccionario.",
+                                    "incorrect": "Incorrecto. El algoritmo descrito es Lesk."
+                                },
+                                "topic": "Desambiguación y algoritmos",
+                                "difficulty": "media",
+                                "question_status": "Pregunta confirmada"
+                            },
+                            {
+                                "correct_option": "aprendizaje semi supervisado",
+                                "text": "El algoritmo basado en ______ combina ejemplos etiquetados con datos no anotados para apoyar la desambiguación.",
+                                "id": 49,
+                                "feedback": {
+                                    "correct": "Correcto. El aprendizaje semi supervisado aprovecha tanto datos etiquetados como no etiquetados.",
+                                    "incorrect": "Incorrecto. Esa combinación de datos etiquetados y no etiquetados corresponde al aprendizaje semi supervisado."
+                                },
+                                "difficulty": "alta",
+                                "incorrect_options": [
+                                    "aprendizaje supervisado",
+                                    "conocimiento"
+                                ],
+                                "question_status": "Pregunta adicional",
+                                "topic": "Desambiguación y algoritmos"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "categorias_morfosintacticas",
+                        "title": "Categorías morfosintácticas",
+                        "questions": [
+                            {
+                                "id": 26,
+                                "text": "Categoría morfosintáctica cuyos elementos modifican a un sustantivo o se predican de él.",
+                                "correct_option": "Adjetivo",
+                                "incorrect_options": [
+                                    "Adverbio",
+                                    "Pronombre"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. El adjetivo modifica o califica al sustantivo.",
+                                    "incorrect": "Incorrecto. La categoría descrita es adjetivo."
+                                },
+                                "topic": "Categorías morfosintácticas",
+                                "difficulty": "fácil",
+                                "question_status": "Pregunta confirmada"
+                            },
+                            {
+                                "id": 27,
+                                "text": "Categoría morfosintáctica cuyos elementos hacen las veces del sustantivo o sintagma nominal.",
+                                "correct_option": "Pronombre",
+                                "incorrect_options": [
+                                    "Adjetivo",
+                                    "Determinante"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. El pronombre sustituye al sustantivo o al sintagma nominal.",
+                                    "incorrect": "Incorrecto. La categoría que reemplaza al sustantivo es el pronombre."
+                                },
+                                "topic": "Categorías morfosintácticas",
+                                "difficulty": "fácil",
+                                "question_status": "Pregunta confirmada"
+                            },
+                            {
+                                "id": 39,
+                                "text": "Son ejemplos de categorías gramaticales:",
+                                "correct_option": "Adjetivos, verbos y conjunciones",
+                                "incorrect_options": [
+                                    "Género, número y significado",
+                                    "Morfema, sentido y sintagma"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. Adjetivos, verbos y conjunciones sí son categorías gramaticales.",
+                                    "incorrect": "Incorrecto. Las otras opciones mezclan rasgos o unidades lingüísticas, no categorías gramaticales."
+                                },
+                                "topic": "Categorías morfosintácticas",
+                                "difficulty": "fácil",
+                                "question_status": "Pregunta confirmada"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "pragmatica_y_conversacion",
+                        "title": "Pragmática y conversación",
+                        "questions": [
+                            {
+                                "id": 28,
+                                "text": "Se dan de manera consecutiva en una conversación y alternan las opiniones de los interlocutores.",
+                                "correct_option": "Turnos de palabra",
+                                "incorrect_options": [
+                                    "Actos de habla",
+                                    "Puntos de coincidencia"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. Los turnos de palabra organizan la alternancia entre interlocutores.",
+                                    "incorrect": "Incorrecto. La descripción corresponde a turnos de palabra."
+                                },
+                                "topic": "Pragmática y conversación",
+                                "difficulty": "fácil",
+                                "question_status": "Pregunta confirmada"
+                            },
+                            {
+                                "id": 38,
+                                "text": "Son cada uno de los tipos de acciones que involucran el uso de lenguaje natural.",
+                                "correct_option": "Actos de habla",
+                                "incorrect_options": [
+                                    "Turnos de palabra",
+                                    "Puntos de coincidencia"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. Los actos de habla describen acciones realizadas mediante el lenguaje.",
+                                    "incorrect": "Incorrecto. La definición corresponde a actos de habla."
+                                },
+                                "topic": "Pragmática y conversación",
+                                "difficulty": "media",
+                                "question_status": "Pregunta confirmada"
+                            },
+                            {
+                                "correct_option": "Puntos de coincidencia",
+                                "text": "Los ______ son conocimientos o referencias compartidas entre interlocutores que facilitan la comprensión mutua.",
+                                "id": 50,
+                                "feedback": {
+                                    "correct": "Correcto. Los puntos de coincidencia son bases compartidas que ayudan a interpretar la conversación.",
+                                    "incorrect": "Incorrecto. Las referencias compartidas entre interlocutores se describen como puntos de coincidencia."
+                                },
+                                "difficulty": "media",
+                                "incorrect_options": [
+                                    "Actos de habla",
+                                    "Turnos de palabra"
+                                ],
+                                "question_status": "Pregunta adicional",
+                                "topic": "Pragmática y conversación"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "modelos_probabilisticos",
+                        "title": "Modelos probabilísticos",
+                        "questions": [
+                            {
+                                "id": 29,
+                                "text": "El modelo oculto de Markov es un etiquetador:",
+                                "correct_option": "Estocástico",
+                                "incorrect_options": [
+                                    "Basado en transformaciones",
+                                    "Basado en reglas"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. Los modelos ocultos de Markov son modelos probabilísticos, es decir, estocásticos.",
+                                    "incorrect": "Incorrecto. El etiquetador basado en HMM es de tipo estocástico."
+                                },
+                                "topic": "Modelos probabilísticos",
+                                "difficulty": "media",
+                                "question_status": "Pregunta confirmada"
+                            },
+                            {
+                                "id": 41,
+                                "text": "Las probabilidades de ______ representan la probabilidad de que una etiqueta genere una palabra.",
+                                "correct_option": "Emisión",
+                                "incorrect_options": [
+                                    "Transición",
+                                    "Viterbi"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. Las probabilidades de emisión modelan la generación de observaciones desde estados.",
+                                    "incorrect": "Incorrecto. La probabilidad de que una etiqueta produzca una palabra es de emisión."
+                                },
+                                "topic": "Modelos probabilísticos",
+                                "difficulty": "alta",
+                                "question_status": "Pregunta confirmada"
+                            },
+                            {
+                                "id": 42,
+                                "text": "Las probabilidades de ______ representan la probabilidad de una etiqueta dada la anterior.",
+                                "correct_option": "Transición",
+                                "incorrect_options": [
+                                    "Emisión",
+                                    "Viterbi"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. Las probabilidades de transición modelan el cambio entre etiquetas o estados.",
+                                    "incorrect": "Incorrecto. La probabilidad de una etiqueta condicionada por la anterior es de transición."
+                                },
+                                "topic": "Modelos probabilísticos",
+                                "difficulty": "alta",
+                                "question_status": "Pregunta confirmada"
+                            },
+                            {
+                                "correct_option": "Viterbi",
+                                "text": "El algoritmo de ______ permite encontrar la secuencia de estados más probable en un modelo oculto de Markov.",
+                                "id": 51,
+                                "feedback": {
+                                    "correct": "Correcto. Viterbi se usa para calcular la secuencia de estados más probable en un HMM.",
+                                    "incorrect": "Incorrecto. El cálculo de la secuencia de estados más probable en un HMM se realiza con Viterbi."
+                                },
+                                "difficulty": "alta",
+                                "incorrect_options": [
+                                    "Emisión",
+                                    "Transición"
+                                ],
+                                "question_status": "Pregunta adicional",
+                                "topic": "Modelos probabilísticos"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "aprendizaje_profundo",
+                        "title": "Aprendizaje profundo",
+                        "questions": [
+                            {
+                                "id": 44,
+                                "text": "El aprendizaje ______ incluye análisis sintáctico, etiquetado semántico y modelos secuencia a secuencia.",
+                                "correct_option": "Profundo",
+                                "incorrect_options": [
+                                    "Supervisado",
+                                    "No supervisado"
+                                ],
+                                "feedback": {
+                                    "correct": "Correcto. El aprendizaje profundo se aplica ampliamente en esas tareas del PLN moderno.",
+                                    "incorrect": "Incorrecto. La opción esperada es profundo."
+                                },
+                                "topic": "Aprendizaje profundo",
+                                "difficulty": "media",
+                                "question_status": "Pregunta confirmada"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,1265 @@
+{
+  "exam": {
+    "title": "Simulador de examen de Razonamiento y Planificación Automática",
+    "version": "1.0",
+    "language": "es",
+    "settings": {
+      "show_feedback_on_correct": true,
+      "show_feedback_on_incorrect": true,
+      "shuffle_questions": false,
+      "shuffle_options": true,
+      "pass_mode": "single_answer"
+    },
+    "sections": [
+      {
+        "id": "verdadero_falso",
+        "title": "Verdadero o Falso",
+        "type": "true_false",
+        "topics": [
+          {
+            "id": "toma_de_decisiones",
+            "title": "Toma de decisiones",
+            "questions": [
+              {
+                "id": 1,
+                "text": "Las decisiones de alto nivel suelen afectar al futuro, tener reversibilidad difícil e impacto amplio.",
+                "correct_option": "Verdadero",
+                "incorrect_options": [
+                  "Falso"
+                ],
+                "feedback": {
+                  "correct": "Correcto. El texto asocia las decisiones de alto nivel con efectos futuros, reversibilidad difícil, impacto amplio y excepcionalidad.",
+                  "incorrect": "Incorrecto. Esas características corresponden a decisiones de alto nivel, no a decisiones frecuentes de bajo impacto."
+                },
+                "topic": "Toma de decisiones",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 2,
+                "text": "Un problema estructurado contiene en su enunciado toda la información necesaria para resolverlo.",
+                "correct_option": "Verdadero",
+                "incorrect_options": [
+                  "Falso"
+                ],
+                "feedback": {
+                  "correct": "Correcto. El problema estructurado se define porque su enunciado incluye la información necesaria para resolverlo.",
+                  "incorrect": "Incorrecto. Esa descripción no corresponde al problema no estructurado, que exige buscar información adicional."
+                },
+                "topic": "Toma de decisiones",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "agentes_inteligentes",
+            "title": "Agentes inteligentes",
+            "questions": [
+              {
+                "id": 3,
+                "text": "Un agente será más autónomo cuanto menos conocimiento a priori necesite para encontrar una solución racional.",
+                "correct_option": "Verdadero",
+                "incorrect_options": [
+                  "Falso"
+                ],
+                "feedback": {
+                  "correct": "Correcto. El material vincula la autonomía con requerir menos información previa sobre el entorno.",
+                  "incorrect": "Incorrecto. Proporcionar más conocimiento a priori resta autonomía al agente."
+                },
+                "topic": "Agentes inteligentes",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 4,
+                "text": "Una arquitectura reactiva utiliza razonamiento simbólico complejo y no tiene límite de tiempo para calcular sus acciones.",
+                "correct_option": "Falso",
+                "incorrect_options": [
+                  "Verdadero"
+                ],
+                "feedback": {
+                  "correct": "Correcto. Esa descripción corresponde a una arquitectura deliberativa; la reactiva busca decisiones rápidas sin razonamiento simbólico complejo.",
+                  "incorrect": "Incorrecto. La arquitectura reactiva se caracteriza por responder rápido a problemas puntuales."
+                },
+                "topic": "Agentes inteligentes",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "representacion_conocimiento",
+            "title": "Representación del conocimiento",
+            "questions": [
+              {
+                "id": 5,
+                "text": "Las representaciones funcionan como sustitutos internos de entidades, acciones o procesos del mundo externo sobre los que se razona.",
+                "correct_option": "Verdadero",
+                "incorrect_options": [
+                  "Falso"
+                ],
+                "feedback": {
+                  "correct": "Correcto. El texto explica que la representación sustituye internamente aquello que existe en el mundo externo.",
+                  "incorrect": "Incorrecto. La representación permite razonar internamente sobre elementos externos."
+                },
+                "topic": "Representación del conocimiento",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "tipos_razonamiento",
+            "title": "Tipos de razonamiento",
+            "questions": [
+              {
+                "id": 6,
+                "text": "El razonamiento inductivo exige que la conclusión se derive necesariamente de las premisas.",
+                "correct_option": "Falso",
+                "incorrect_options": [
+                  "Verdadero"
+                ],
+                "feedback": {
+                  "correct": "Correcto. En el razonamiento inductivo la conclusión es probable; la necesidad lógica corresponde al razonamiento deductivo.",
+                  "incorrect": "Incorrecto. La inducción obtiene conclusiones generales probables a partir de casos particulares."
+                },
+                "topic": "Tipos de razonamiento",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "logica",
+            "title": "Lógica y lógica de descripción",
+            "questions": [
+              {
+                "id": 7,
+                "text": "La lógica descriptiva se compone de conceptos, roles o propiedades, e individuos.",
+                "correct_option": "Verdadero",
+                "incorrect_options": [
+                  "Falso"
+                ],
+                "feedback": {
+                  "correct": "Correcto. El texto resume la lógica descriptiva mediante conceptos, relaciones llamadas roles e individuos del dominio.",
+                  "incorrect": "Incorrecto. Esos son precisamente los elementos básicos de las lógicas descriptivas."
+                },
+                "topic": "Lógica y lógica de descripción",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "busqueda",
+            "title": "Búsqueda en espacios de estados",
+            "questions": [
+              {
+                "id": 8,
+                "text": "La búsqueda en profundidad garantiza encontrar siempre la solución de menor profundidad cuando todos los operadores cuestan uno.",
+                "correct_option": "Falso",
+                "incorrect_options": [
+                  "Verdadero"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La búsqueda en profundidad no es óptima porque no garantiza hallar la solución de menor profundidad.",
+                  "incorrect": "Incorrecto. Esa propiedad se asocia con búsqueda en amplitud bajo costes unitarios, no con profundidad."
+                },
+                "topic": "Búsqueda en espacios de estados",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "heuristicas",
+            "title": "Heurísticas y búsqueda A*",
+            "questions": [
+              {
+                "id": 9,
+                "text": "Si h*(n) = 0 para todos los nodos, la búsqueda A* degenera en búsqueda de coste uniforme.",
+                "correct_option": "Verdadero",
+                "incorrect_options": [
+                  "Falso"
+                ],
+                "feedback": {
+                  "correct": "Correcto. Sin información heurística, A* queda guiada solo por el coste acumulado g(n).",
+                  "incorrect": "Incorrecto. El texto indica que con h*(n)=0 A* se comporta como búsqueda de coste uniforme."
+                },
+                "topic": "Heurísticas y búsqueda A*",
+                "difficulty": "alta",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "juegos",
+            "title": "Minimax, alfa-beta y expectiminimax",
+            "questions": [
+              {
+                "id": 10,
+                "text": "La poda alfa-beta siempre produce el mismo resultado que minimax sin poda, aunque su eficiencia depende del orden de exploración.",
+                "correct_option": "Verdadero",
+                "incorrect_options": [
+                  "Falso"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La poda elimina nodos irrelevantes sin cambiar la decisión minimax, pero mejora más o menos según el orden de expansión.",
+                  "incorrect": "Incorrecto. Alfa-beta conserva el resultado de minimax; lo que varía es el rendimiento."
+                },
+                "topic": "Minimax, alfa-beta y expectiminimax",
+                "difficulty": "alta",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "planificacion",
+            "title": "Planificación clásica",
+            "questions": [
+              {
+                "id": 11,
+                "text": "La planificación clásica asume un entorno determinista, estático y totalmente observable.",
+                "correct_option": "Verdadero",
+                "incorrect_options": [
+                  "Falso"
+                ],
+                "feedback": {
+                  "correct": "Correcto. Esas son tres restricciones centrales del modelo de planificación clásica descrito en el texto.",
+                  "incorrect": "Incorrecto. Esas condiciones distinguen a la planificación clásica de la planificación con incertidumbre."
+                },
+                "topic": "Planificación clásica",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "strips_pddl_goap",
+            "title": "STRIPS, PDDL y GOAP",
+            "questions": [
+              {
+                "id": 12,
+                "text": "En STRIPS, un operador aplicable a un estado requiere que sus precondiciones sean subconjunto de ese estado.",
+                "correct_option": "Verdadero",
+                "incorrect_options": [
+                  "Falso"
+                ],
+                "feedback": {
+                  "correct": "Correcto. El operador es aplicable cuando PC(Op) está contenido en el estado S.",
+                  "incorrect": "Incorrecto. STRIPS exige que las precondiciones del operador estén presentes en el estado."
+                },
+                "topic": "STRIPS, PDDL y GOAP",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "planificacion_multiagente",
+            "title": "Planificación multiagente y reparación reactiva",
+            "questions": [
+              {
+                "id": 13,
+                "text": "La planificación para múltiples agentes utiliza un planificador centralizado que genera y asigna acciones a los agentes de ejecución.",
+                "correct_option": "Verdadero",
+                "incorrect_options": [
+                  "Falso"
+                ],
+                "feedback": {
+                  "correct": "Correcto. En PTMA un agente centralizado genera el plan y distribuye acciones a los agentes ejecutores.",
+                  "incorrect": "Incorrecto. Esa descripción corresponde a planificación para múltiples agentes, no a planificación distribuida por múltiples agentes."
+                },
+                "topic": "Planificación multiagente y reparación reactiva",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 14,
+                "text": "FMAP usa control por mensajes broadcast para dirigir cada refinamiento del plan.",
+                "correct_option": "Falso",
+                "incorrect_options": [
+                  "Verdadero"
+                ],
+                "feedback": {
+                  "correct": "Correcto. FMAP no usa control por broadcast; mantiene un liderazgo democrático con un coordinador por iteración.",
+                  "incorrect": "Incorrecto. El uso de broadcast se menciona para ambientes más reactivos, no como control de FMAP."
+                },
+                "topic": "Planificación multiagente y reparación reactiva",
+                "difficulty": "alta",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 15,
+                "text": "La reparación reactiva busca cambiar lo mínimo posible del plan fallido y reutilizar al máximo sus acciones actuales.",
+                "correct_option": "Verdadero",
+                "incorrect_options": [
+                  "Falso"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La filosofía de reparación del texto es conservar tantas acciones del plan actual como sea posible.",
+                  "incorrect": "Incorrecto. Si no se reutiliza ninguna acción, el texto lo trata como replanificación desde cero."
+                },
+                "topic": "Planificación multiagente y reparación reactiva",
+                "difficulty": "alta",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "opcion_multiple",
+        "title": "Opción múltiple",
+        "type": "multiple_choice",
+        "topics": [
+          {
+            "id": "toma_de_decisiones",
+            "title": "Toma de decisiones",
+            "questions": [
+              {
+                "id": 16,
+                "text": "El ______ se refiere a cómo afectará una decisión en el futuro.",
+                "correct_option": "efecto futuro",
+                "incorrect_options": [
+                  "impacto",
+                  "periodicidad"
+                ],
+                "feedback": {
+                  "correct": "Correcto. El efecto futuro evalúa la influencia temporal que tendrá una decisión.",
+                  "incorrect": "Incorrecto. Impacto se refiere a áreas afectadas y periodicidad a frecuencia o excepcionalidad."
+                },
+                "topic": "Toma de decisiones",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 17,
+                "text": "Son decisiones de rutina, repetidas periódicamente y asociadas con problemas bien definidos.",
+                "correct_option": "Decisiones programadas",
+                "incorrect_options": [
+                  "Decisiones no programadas",
+                  "Decisiones excepcionales"
+                ],
+                "feedback": {
+                  "correct": "Correcto. Las decisiones programadas se repiten y no requieren un proceso complejo de decisión.",
+                  "incorrect": "Incorrecto. Las decisiones no programadas tratan situaciones nuevas o desconocidas."
+                },
+                "topic": "Toma de decisiones",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 18,
+                "text": "La clasificación ______ organiza problemas según urgencia e importancia.",
+                "correct_option": "ERIM",
+                "incorrect_options": [
+                  "DAFO",
+                  "Ishikawa"
+                ],
+                "feedback": {
+                  "correct": "Correcto. ERIM clasifica problemas mediante una matriz de urgencia e importancia.",
+                  "incorrect": "Incorrecto. DAFO valora debilidades, amenazas, fortalezas y oportunidades; Ishikawa organiza causas."
+                },
+                "topic": "Toma de decisiones",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "agentes_inteligentes",
+            "title": "Agentes inteligentes",
+            "questions": [
+              {
+                "id": 19,
+                "text": "Sistema que intenta obtener una meta por medio de un comportamiento racional.",
+                "correct_option": "Agente inteligente",
+                "incorrect_options": [
+                  "Red bayesiana",
+                  "Operador STRIPS"
+                ],
+                "feedback": {
+                  "correct": "Correcto. El curso considera inteligente al sistema que busca metas con comportamiento racional.",
+                  "incorrect": "Incorrecto. Esa definición corresponde al agente inteligente, no a una técnica de representación ni a una acción formal."
+                },
+                "topic": "Agentes inteligentes",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 20,
+                "text": "Las fases principales del proceso de toma de decisiones de un agente son sentir, ______ y actuar.",
+                "correct_option": "pensar",
+                "incorrect_options": [
+                  "podar",
+                  "regresar"
+                ],
+                "feedback": {
+                  "correct": "Correcto. El agente organiza su toma de decisiones en sentir, pensar y actuar.",
+                  "incorrect": "Incorrecto. Podar y regresar son acciones de algoritmos específicos, no fases generales del agente."
+                },
+                "topic": "Agentes inteligentes",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "arquitecturas_agentes",
+            "title": "Arquitecturas de agentes",
+            "questions": [
+              {
+                "id": 21,
+                "text": "En una arquitectura BDI, las ______ representan el conocimiento que el agente tiene de sí mismo y del entorno.",
+                "correct_option": "creencias",
+                "incorrect_options": [
+                  "intenciones",
+                  "metas"
+                ],
+                "feedback": {
+                  "correct": "Correcto. Las creencias recogen conocimiento del agente y del entorno, aunque pueda ser incompleto o incorrecto.",
+                  "incorrect": "Incorrecto. Las intenciones son metas que intenta conseguir y las metas son deseos alcanzables."
+                },
+                "topic": "Arquitecturas de agentes",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 22,
+                "text": "Arquitectura que contiene una representación explícita y lógica del mundo y decide mediante razonamiento lógico.",
+                "correct_option": "Arquitectura deliberativa",
+                "incorrect_options": [
+                  "Arquitectura reactiva",
+                  "Arquitectura de subsunción"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La arquitectura deliberativa usa representación lógica explícita y razonamiento práctico.",
+                  "incorrect": "Incorrecto. Las arquitecturas reactivas buscan respuestas rápidas sin razonamiento simbólico complejo."
+                },
+                "topic": "Arquitecturas de agentes",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 23,
+                "text": "Arquitectura que combina un subsistema deliberativo con un subsistema reactivo para entornos complejos.",
+                "correct_option": "Arquitectura híbrida",
+                "incorrect_options": [
+                  "Arquitectura puramente reactiva",
+                  "Tabla de actuación"
+                ],
+                "feedback": {
+                  "correct": "Correcto. El enfoque híbrido une planificación simbólica con reacción rápida a eventos del entorno.",
+                  "incorrect": "Incorrecto. Una arquitectura híbrida integra deliberación y reacción, no solo una tabla o un controlador reactivo."
+                },
+                "topic": "Arquitecturas de agentes",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 24,
+                "text": "PRS es una arquitectura BDI que incluye una librería de planes y una representación simbólica explícita de creencias, deseos e intenciones.",
+                "correct_option": "Procedural Reasoning System",
+                "incorrect_options": [
+                  "Goal-Oriented Action Planning",
+                  "Búsqueda de coste uniforme"
+                ],
+                "feedback": {
+                  "correct": "Correcto. PRS se describe como una arquitectura BDI con librería de planes y representación simbólica explícita.",
+                  "incorrect": "Incorrecto. GOAP es un sistema de planificación orientada a metas y UCS es un algoritmo de búsqueda."
+                },
+                "topic": "Arquitecturas de agentes",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "representacion_conocimiento",
+            "title": "Representación del conocimiento",
+            "questions": [
+              {
+                "id": 25,
+                "text": "La representación ______ no debe presentar ambigüedades.",
+                "correct_option": "formal",
+                "incorrect_options": [
+                  "natural",
+                  "superficial"
+                ],
+                "feedback": {
+                  "correct": "Correcto. Una representación formal evita ambigüedades.",
+                  "incorrect": "Incorrecto. Natural alude a cercanía con formas humanas de expresión y superficial es una clase de conocimiento."
+                },
+                "topic": "Representación del conocimiento",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 26,
+                "text": "Técnica de representación que usa estructuras de la forma SI-ENTONCES para inferir sentencias condicionales.",
+                "correct_option": "Reglas",
+                "incorrect_options": [
+                  "Marcos",
+                  "Redes bayesianas"
+                ],
+                "feedback": {
+                  "correct": "Correcto. Las reglas producen inferencia mediante encadenamiento y sentencias SI-ENTONCES.",
+                  "incorrect": "Incorrecto. Los marcos organizan situaciones estereotipadas y las redes bayesianas modelan relaciones probabilistas."
+                },
+                "topic": "Representación del conocimiento",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "clases_conocimiento",
+            "title": "Clases de conocimiento",
+            "questions": [
+              {
+                "id": 27,
+                "text": "La ______ representa criterios específicos de un problema o entorno concreto.",
+                "correct_option": "conocimiento de dominio",
+                "incorrect_options": [
+                  "metaconocimiento",
+                  "conocimiento de control"
+                ],
+                "feedback": {
+                  "correct": "Correcto. El conocimiento de dominio recoge criterios propios de un problema o entorno concreto.",
+                  "incorrect": "Incorrecto. El metaconocimiento genera modelos a partir de otros modelos y el de control ordena pasos de resolución."
+                },
+                "topic": "Clases de conocimiento",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 28,
+                "text": "Clase de conocimiento asociada con capacidades o habilidades innatas difíciles de expresar verbalmente.",
+                "correct_option": "Conocimiento implícito",
+                "incorrect_options": [
+                  "Conocimiento explícito",
+                  "Conocimiento profundo"
+                ],
+                "feedback": {
+                  "correct": "Correcto. El conocimiento implícito se vincula con habilidades que no se expresan con facilidad verbalmente.",
+                  "incorrect": "Incorrecto. El explícito se extrae del análisis de razonamientos y el profundo responde a un marco teórico estructurado."
+                },
+                "topic": "Clases de conocimiento",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 29,
+                "text": "Conocimiento que permite generar nuevos modelos a partir de modelos de problemas anteriores.",
+                "correct_option": "Metaconocimiento",
+                "incorrect_options": [
+                  "Conocimiento superficial",
+                  "Conocimiento de dominio"
+                ],
+                "feedback": {
+                  "correct": "Correcto. El metaconocimiento opera sobre modelos y bases de conocimiento para generar nuevos elementos.",
+                  "incorrect": "Incorrecto. El superficial proviene de experiencia en problemas similares y el de dominio describe criterios específicos."
+                },
+                "topic": "Clases de conocimiento",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "tipos_razonamiento",
+            "title": "Tipos de razonamiento",
+            "questions": [
+              {
+                "id": 30,
+                "text": "El método ______ parte de lo general para llegar a lo particular.",
+                "correct_option": "deductivo",
+                "incorrect_options": [
+                  "inductivo",
+                  "abductivo"
+                ],
+                "feedback": {
+                  "correct": "Correcto. El método deductivo deduce desde principios generales hacia casos particulares.",
+                  "incorrect": "Incorrecto. El método inductivo va de casos particulares a generalizaciones y el abductivo busca explicaciones."
+                },
+                "topic": "Tipos de razonamiento",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 31,
+                "text": "Razonamiento que extrae conclusiones generales a partir de experiencias particulares.",
+                "correct_option": "Razonamiento inductivo",
+                "incorrect_options": [
+                  "Razonamiento deductivo",
+                  "Razonamiento de coste uniforme"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La inducción generaliza desde observaciones particulares y produce conclusiones probables.",
+                  "incorrect": "Incorrecto. La deducción exige consecuencia necesaria y coste uniforme es un algoritmo de búsqueda."
+                },
+                "topic": "Tipos de razonamiento",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 32,
+                "text": "El razonamiento ______ parte de hechos observados y busca una teoría o causa explicativa.",
+                "correct_option": "abductivo",
+                "incorrect_options": [
+                  "deductivo",
+                  "proposicional"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La abducción va del efecto hacia una causa probable o hipótesis explicativa.",
+                  "incorrect": "Incorrecto. La deducción deriva conclusiones necesarias y proposicional es un tipo de lógica."
+                },
+                "topic": "Tipos de razonamiento",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "logica",
+            "title": "Lógica matemática, descriptiva, multivaluada y difusa",
+            "questions": [
+              {
+                "id": 33,
+                "text": "La lógica ______ utiliza proposiciones que pueden ser verdaderas o falsas y conectivos como y, o, no e implicación.",
+                "correct_option": "proposicional",
+                "incorrect_options": [
+                  "difusa",
+                  "HTN"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La lógica proposicional trabaja con proposiciones y conectivos lógicos.",
+                  "incorrect": "Incorrecto. La lógica difusa maneja vaguedad y HTN es planificación jerárquica, no lógica proposicional."
+                },
+                "topic": "Lógica matemática, descriptiva, multivaluada y difusa",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 34,
+                "text": "La lógica de primer orden añade la posibilidad de utilizar ______.",
+                "correct_option": "cuantificadores",
+                "incorrect_options": [
+                  "nodos de azar",
+                  "listas abiertas"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La lógica de primer orden incorpora cuantificadores como para todo y existe.",
+                  "incorrect": "Incorrecto. Los nodos de azar pertenecen a expectiminimax y las listas abiertas a búsqueda."
+                },
+                "topic": "Lógica matemática, descriptiva, multivaluada y difusa",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 35,
+                "text": "En lógica descriptiva, padre, madre o humano son ejemplos de ______.",
+                "correct_option": "conceptos",
+                "incorrect_options": [
+                  "roles",
+                  "individuos"
+                ],
+                "feedback": {
+                  "correct": "Correcto. Padre, madre y humano son conceptos dentro de una lógica descriptiva.",
+                  "incorrect": "Incorrecto. Los roles son relaciones como tieneHijo y los individuos son elementos como María o Jesús."
+                },
+                "topic": "Lógica matemática, descriptiva, multivaluada y difusa",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 36,
+                "text": "En una base de conocimiento descriptiva, la ______ contiene la descripción de los individuos.",
+                "correct_option": "ABox",
+                "incorrect_options": [
+                  "TBox",
+                  "lista abierta"
+                ],
+                "feedback": {
+                  "correct": "Correcto. ABox agrupa las aserciones o descripción de individuos.",
+                  "incorrect": "Incorrecto. TBox describe conceptos y lista abierta pertenece al algoritmo general de búsqueda."
+                },
+                "topic": "Lógica matemática, descriptiva, multivaluada y difusa",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 37,
+                "text": "La lógica ______ permite emplear más de dos valores de verdad.",
+                "correct_option": "multivaluada",
+                "incorrect_options": [
+                  "proposicional clásica",
+                  "de orden total"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La lógica multivaluada introduce valores intermedios más allá de verdadero y falso.",
+                  "incorrect": "Incorrecto. La lógica proposicional clásica se basa en valores verdadero/falso y orden total es planificación."
+                },
+                "topic": "Lógica matemática, descriptiva, multivaluada y difusa",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 38,
+                "text": "La lógica difusa es adecuada para modelar problemas a partir de conocimiento experto expresado con nociones poco precisas.",
+                "correct_option": "Lógica difusa",
+                "incorrect_options": [
+                  "Búsqueda en amplitud",
+                  "Planificación regresiva"
+                ],
+                "feedback": {
+                  "correct": "Correcto. El texto destaca la lógica difusa para manejar incertidumbre, vaguedad y expresiones imprecisas de expertos.",
+                  "incorrect": "Incorrecto. Búsqueda en amplitud y planificación regresiva no modelan grados de pertenencia ni vaguedad."
+                },
+                "topic": "Lógica matemática, descriptiva, multivaluada y difusa",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "busqueda_no_informada",
+            "title": "Búsqueda no informada",
+            "questions": [
+              {
+                "id": 39,
+                "text": "La búsqueda ______ no emplea ningún tipo de heurística para guiar la exploración.",
+                "correct_option": "no informada",
+                "incorrect_options": [
+                  "informada",
+                  "difusa"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La búsqueda no informada evalúa estados sin conocer a priori si uno es mejor que otro.",
+                  "incorrect": "Incorrecto. La búsqueda informada sí usa una función heurística."
+                },
+                "topic": "Búsqueda no informada",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 40,
+                "text": "La búsqueda en ______ expande todos los nodos de nivel i antes de expandir los de nivel i+1.",
+                "correct_option": "amplitud",
+                "incorrect_options": [
+                  "profundidad",
+                  "horizonte"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La búsqueda en amplitud genera el árbol por niveles de profundidad.",
+                  "incorrect": "Incorrecto. Profundidad explora primero nodos más profundos y horizonte limita una búsqueda local."
+                },
+                "topic": "Búsqueda no informada",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 41,
+                "text": "La búsqueda en ______ usa la lista abierta como pila y expande primero el nodo más profundo.",
+                "correct_option": "profundidad",
+                "incorrect_options": [
+                  "amplitud",
+                  "coste uniforme"
+                ],
+                "feedback": {
+                  "correct": "Correcto. En profundidad los sucesores se añaden al inicio y la lista funciona como pila.",
+                  "incorrect": "Incorrecto. Amplitud usa cola y coste uniforme usa una cola de prioridad por g."
+                },
+                "topic": "Búsqueda no informada",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 42,
+                "text": "La búsqueda de coste uniforme expande primero el nodo con menor ______.",
+                "correct_option": "g(n)",
+                "incorrect_options": [
+                  "h*(n)",
+                  "β"
+                ],
+                "feedback": {
+                  "correct": "Correcto. UCS ordena la lista abierta por el coste real acumulado g(n).",
+                  "incorrect": "Incorrecto. h*(n) es estimación heurística y β pertenece a poda alfa-beta."
+                },
+                "topic": "Búsqueda no informada",
+                "difficulty": "alta",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "heuristicas_a_estrella",
+            "title": "Heurísticas y A*",
+            "questions": [
+              {
+                "id": 43,
+                "text": "En A*, la función ______ combina el coste acumulado desde el inicio y la estimación heurística hasta la meta.",
+                "correct_option": "f*(n) = g(n) + h*(n)",
+                "incorrect_options": [
+                  "U(s) = +∞",
+                  "S ← S' - A(Op) ∪ PC(Op)"
+                ],
+                "feedback": {
+                  "correct": "Correcto. A* usa una evaluación formada por el coste real g(n) y la estimación heurística h*(n).",
+                  "incorrect": "Incorrecto. U(s) expresa utilidad en juegos y la otra expresión corresponde a regresión STRIPS."
+                },
+                "topic": "Heurísticas y A*",
+                "difficulty": "alta",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 44,
+                "text": "La ______ es una heurística que subestima el coste real hasta la meta.",
+                "correct_option": "heurística admisible",
+                "incorrect_options": [
+                  "heurística de mundo cerrado",
+                  "función de utilidad"
+                ],
+                "feedback": {
+                  "correct": "Correcto. Una heurística admisible cumple h*(n) menor o igual que el coste real h(n).",
+                  "incorrect": "Incorrecto. La admisibilidad se define por no sobreestimar el coste restante."
+                },
+                "topic": "Heurísticas y A*",
+                "difficulty": "alta",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 45,
+                "text": "Una heurística ______ hace que el valor f* de un hijo nunca sea menor que el del padre.",
+                "correct_option": "consistente",
+                "incorrect_options": [
+                  "no informada",
+                  "regresiva"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La consistencia implica que f* es monotónicamente creciente a lo largo del camino.",
+                  "incorrect": "Incorrecto. Esa propiedad técnica corresponde a una heurística consistente."
+                },
+                "topic": "Heurísticas y A*",
+                "difficulty": "alta",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 46,
+                "text": "Si h1* y h2* son admisibles, h1* es más informada cuando para todo nodo n se cumple que h1*(n) ≥ h2*(n).",
+                "correct_option": "Calidad de una heurística",
+                "incorrect_options": [
+                  "Asunción de mundo cerrado",
+                  "Poda beta profunda"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La comparación de heurísticas admisibles se basa en cuál entrega valores mayores sin perder admisibilidad.",
+                  "incorrect": "Incorrecto. Esa relación describe información heurística, no mundo cerrado ni poda de juegos."
+                },
+                "topic": "Heurísticas y A*",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 47,
+                "text": "La ______ reduce la complejidad dividiendo el problema en varios subproblemas mediante estados intermedios.",
+                "correct_option": "búsqueda por subobjetivos",
+                "incorrect_options": [
+                  "búsqueda de coste uniforme",
+                  "lógica de descripción"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La búsqueda por subobjetivos usa estados intermedios para disminuir la profundidad de búsquedas largas.",
+                  "incorrect": "Incorrecto. Coste uniforme ordena por g(n), y lógica de descripción es representación de conocimiento."
+                },
+                "topic": "Heurísticas y A*",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 48,
+                "text": "La búsqueda ______ combina un paso de búsqueda con un paso de actuación y ejecuta acciones durante el proceso.",
+                "correct_option": "online",
+                "incorrect_options": [
+                  "offline",
+                  "de orden total"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La búsqueda online alterna percepción, elección de acción y ejecución.",
+                  "incorrect": "Incorrecto. La búsqueda offline calcula un plan antes de comenzar la ejecución."
+                },
+                "topic": "Heurísticas y A*",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "juegos_busqueda_adversaria",
+            "title": "Juegos, minimax, alfa-beta y expectiminimax",
+            "questions": [
+              {
+                "id": 49,
+                "text": "Método de decisión que minimiza la pérdida máxima esperada en juegos con adversario e información perfecta.",
+                "correct_option": "Minimax",
+                "incorrect_options": [
+                  "A*",
+                  "FMAP"
+                ],
+                "feedback": {
+                  "correct": "Correcto. Minimax elige el mejor movimiento suponiendo que el adversario escogerá lo peor para uno.",
+                  "incorrect": "Incorrecto. A* es búsqueda heurística y FMAP es un planificador multiagente."
+                },
+                "topic": "Juegos, minimax, alfa-beta y expectiminimax",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 50,
+                "text": "En minimax con suspensión, se reemplaza la prueba terminal por una prueba de suspensión y se usa una ______.",
+                "correct_option": "función de evaluación",
+                "incorrect_options": [
+                  "lista de eliminar",
+                  "TBox"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La función de evaluación estima la utilidad esperada de una posición cuando no se expande todo el árbol.",
+                  "incorrect": "Incorrecto. Las listas de eliminar son de STRIPS y TBox pertenece a lógica descriptiva."
+                },
+                "topic": "Juegos, minimax, alfa-beta y expectiminimax",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 51,
+                "text": "La poda ______ permite eliminar partes del árbol sin cambiar la decisión minimax.",
+                "correct_option": "alfa-beta",
+                "incorrect_options": [
+                  "regresiva",
+                  "multivaluada"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La poda alfa-beta descarta nodos irrelevantes y conserva el resultado de minimax.",
+                  "incorrect": "Incorrecto. Regresiva es planificación hacia atrás y multivaluada es un tipo de lógica."
+                },
+                "topic": "Juegos, minimax, alfa-beta y expectiminimax",
+                "difficulty": "alta",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 52,
+                "text": "Algoritmo usado en juegos bipersonales con elementos de azar, añadiendo un jugador azar al árbol.",
+                "correct_option": "Expectiminimax",
+                "incorrect_options": [
+                  "Minimax básico",
+                  "Búsqueda en profundidad"
+                ],
+                "feedback": {
+                  "correct": "Correcto. Expectiminimax extiende minimax con nodos de azar y probabilidades asociadas.",
+                  "incorrect": "Incorrecto. Minimax básico no modela eventos aleatorios y DFS no calcula utilidades esperadas."
+                },
+                "topic": "Juegos, minimax, alfa-beta y expectiminimax",
+                "difficulty": "alta",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "planificacion_clasica",
+            "title": "Planificación clásica",
+            "questions": [
+              {
+                "id": 53,
+                "text": "Proceso formalizado de búsqueda de secuencias de acciones que, partiendo del estado actual, satisfacen una meta.",
+                "correct_option": "Planificación",
+                "incorrect_options": [
+                  "Subsunción",
+                  "Lógica multivaluada"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La planificación busca planes como secuencias de acciones que alcanzan metas.",
+                  "incorrect": "Incorrecto. Subsunción es una arquitectura reactiva y lógica multivaluada trata valores de verdad intermedios."
+                },
+                "topic": "Planificación clásica",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 54,
+                "text": "La diferencia principal entre búsqueda y planificación está en la ______.",
+                "correct_option": "representación de estados",
+                "incorrect_options": [
+                  "cantidad de agentes",
+                  "existencia de nodos de azar"
+                ],
+                "feedback": {
+                  "correct": "Correcto. En búsqueda los estados se tratan como una entidad; en planificación son estructuras de propiedades.",
+                  "incorrect": "Incorrecto. La comparación del texto se centra en cómo se representan y aprovechan los estados."
+                },
+                "topic": "Planificación clásica",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 55,
+                "text": "En planificación clásica, el entorno solo cambia al aplicar una acción y los objetivos no cambian durante la planificación.",
+                "correct_option": "Estático",
+                "incorrect_options": [
+                  "Parcialmente observable",
+                  "No determinista"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La asunción de entorno estático indica que no hay influencias externas durante la planificación.",
+                  "incorrect": "Incorrecto. Parcialmente observable y no determinista pertenecen a planificación con incertidumbre."
+                },
+                "topic": "Planificación clásica",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 56,
+                "text": "La planificación con incertidumbre considera entornos parcialmente observables, dinámicos y ______.",
+                "correct_option": "no deterministas",
+                "incorrect_options": [
+                  "proposicionales cerrados",
+                  "totalmente observables"
+                ],
+                "feedback": {
+                  "correct": "Correcto. Con incertidumbre, los efectos de una acción pueden no ser predecibles y conducir a varios estados.",
+                  "incorrect": "Incorrecto. Totalmente observable y cerrado son rasgos asociados a modelos clásicos o STRIPS/PDDL."
+                },
+                "topic": "Planificación clásica",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 57,
+                "text": "Un plan parcialmente ordenado especifica solo algunas precedencias entre sus acciones.",
+                "correct_option": "Plan de orden parcial",
+                "incorrect_options": [
+                  "Plan de orden total",
+                  "Tabla de actuación"
+                ],
+                "feedback": {
+                  "correct": "Correcto. En POP se buscan planes no completamente especificados con restricciones parciales de orden.",
+                  "incorrect": "Incorrecto. El orden total exige una secuencia completa y una tabla de actuación enumera respuestas prefijadas."
+                },
+                "topic": "Planificación clásica",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "strips_pddl_goap",
+            "title": "STRIPS, PDDL y GOAP",
+            "questions": [
+              {
+                "id": 58,
+                "text": "En STRIPS, los dos componentes básicos de una definición de problema son proposiciones y ______.",
+                "correct_option": "operadores",
+                "incorrect_options": [
+                  "roles",
+                  "servicios"
+                ],
+                "feedback": {
+                  "correct": "Correcto. STRIPS define estados mediante proposiciones y acciones mediante operadores.",
+                  "incorrect": "Incorrecto. Roles pertenecen a lógica descriptiva y servicios a reparación multiagente."
+                },
+                "topic": "STRIPS, PDDL y GOAP",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 59,
+                "text": "En un operador STRIPS, la lista de ______ contiene las proposiciones que se quitarán del estado al aplicar el operador.",
+                "correct_option": "eliminar",
+                "incorrect_options": [
+                  "añadir",
+                  "precondiciones"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La lista de eliminar retira proposiciones del estado tras ejecutar el operador.",
+                  "incorrect": "Incorrecto. La lista de añadir incorpora proposiciones y las precondiciones habilitan la acción."
+                },
+                "topic": "STRIPS, PDDL y GOAP",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 60,
+                "text": "En planificación regresiva STRIPS, regresar S' por un operador usa la expresión ______.",
+                "correct_option": "S ← S' - A(Op) ∪ PC(Op)",
+                "incorrect_options": [
+                  "f*(n) = g(n) + h*(n)",
+                  "U(s) = 0"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La regresión elimina la lista de añadir y agrega las precondiciones necesarias.",
+                  "incorrect": "Incorrecto. La primera fórmula es de A* y U(s)=0 se usa como utilidad de empate en juegos."
+                },
+                "topic": "STRIPS, PDDL y GOAP",
+                "difficulty": "alta",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 61,
+                "text": "Lenguaje común y estándar de creación de planes basado en STRIPS y ADL, usado para comparar planificadores.",
+                "correct_option": "PDDL",
+                "incorrect_options": [
+                  "GOAP",
+                  "ALC"
+                ],
+                "feedback": {
+                  "correct": "Correcto. PDDL se creó como lenguaje estándar para definir dominios y problemas de planificación.",
+                  "incorrect": "Incorrecto. GOAP adapta STRIPS a videojuegos y ALC es lógica descriptiva básica."
+                },
+                "topic": "STRIPS, PDDL y GOAP",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 62,
+                "text": "GOAP adapta STRIPS a entornos de simulación y videojuegos, añadiendo costes de acciones y precondiciones procedurales.",
+                "correct_option": "Goal-Oriented Action Planning",
+                "incorrect_options": [
+                  "Graph-Oriented ABox Planning",
+                  "General Order A* Protocol"
+                ],
+                "feedback": {
+                  "correct": "Correcto. GOAP extiende ideas de STRIPS para planificación orientada a metas en tiempo real.",
+                  "incorrect": "Incorrecto. GOAP significa Goal-Oriented Action Planning y se asocia con planificación de acciones orientada a metas."
+                },
+                "topic": "STRIPS, PDDL y GOAP",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "htn",
+            "title": "Planificación jerárquica HTN",
+            "questions": [
+              {
+                "id": 63,
+                "text": "La planificación HTN se basa en la descomposición jerárquica de una ______.",
+                "correct_option": "red de tareas",
+                "incorrect_options": [
+                  "tabla de verdad",
+                  "cola de prioridad"
+                ],
+                "feedback": {
+                  "correct": "Correcto. HTN descompone una red de tareas hasta obtener tareas primitivas ejecutables.",
+                  "incorrect": "Incorrecto. Tablas de verdad pertenecen a lógica y colas de prioridad a algoritmos de búsqueda."
+                },
+                "topic": "Planificación jerárquica HTN",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 64,
+                "text": "En HTN, la solución se alcanza cuando todas las tareas compuestas se han descompuesto en ______.",
+                "correct_option": "tareas primitivas",
+                "incorrect_options": [
+                  "nodos de azar",
+                  "metas abiertas"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La solución HTN equivale a un conjunto de tareas primitivas aplicables al estado inicial.",
+                  "incorrect": "Incorrecto. Los nodos de azar son de expectiminimax y las metas abiertas pertenecen a POP o FMAP."
+                },
+                "topic": "Planificación jerárquica HTN",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "planificacion_multiagente",
+            "title": "Planificación multiagente",
+            "questions": [
+              {
+                "id": 65,
+                "text": "La ______ emplea un agente centralizado que unifica estados, genera el plan solución y asigna acciones.",
+                "correct_option": "planificación para múltiples agentes",
+                "incorrect_options": [
+                  "planificación por múltiples agentes",
+                  "reparación individual"
+                ],
+                "feedback": {
+                  "correct": "Correcto. PTMA centraliza la planificación y distribuye tareas a agentes de ejecución.",
+                  "incorrect": "Incorrecto. PBMA planifica de forma distribuida entre agentes independientes."
+                },
+                "topic": "Planificación multiagente",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "fmap_planificadores_distribuidos",
+            "title": "Planificadores distribuidos y FMAP",
+            "questions": [
+              {
+                "id": 66,
+                "text": "FMAP es un planificador multiagente que utiliza POP, búsqueda A* multiagente y planificación ______.",
+                "correct_option": "hacia adelante",
+                "incorrect_options": [
+                  "por tablas de verdad",
+                  "por lógica multivaluada"
+                ],
+                "feedback": {
+                  "correct": "Correcto. FMAP implementa planificación hacia adelante y combina POP con A* multiagente.",
+                  "incorrect": "Incorrecto. FMAP no se define por tablas de verdad ni por lógica multivaluada."
+                },
+                "topic": "Planificadores distribuidos y FMAP",
+                "difficulty": "alta",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "reparacion_reactiva",
+            "title": "Reparación reactiva multiagente",
+            "questions": [
+              {
+                "id": 67,
+                "text": "En la reparación reactiva multiagente, los servicios publicitados son los ______ que aparecen en los efectos de las acciones de cada agente.",
+                "correct_option": "fluents",
+                "incorrect_options": [
+                  "roles",
+                  "cuantificadores"
+                ],
+                "feedback": {
+                  "correct": "Correcto. Los servicios indican los fluents que puede conseguir otro agente mediante sus acciones.",
+                  "incorrect": "Incorrecto. Roles y cuantificadores pertenecen a representación lógica, no a servicios de reparación."
+                },
+                "topic": "Reparación reactiva multiagente",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 68,
+                "text": "Estructura rápida de reparación reactiva basada en reglas condicionales del estilo ______.",
+                "correct_option": "SI X ENTONCES RETORNAR plan",
+                "incorrect_options": [
+                  "f*(n) = g(n) + h*(n)",
+                  "A < B y B < A"
+                ],
+                "feedback": {
+                  "correct": "Correcto. El texto menciona bases de datos con reglas condicionales de ese estilo para reparación reactiva.",
+                  "incorrect": "Incorrecto. La fórmula pertenece a A* y el ciclo de orden representa una contradicción en planes."
+                },
+                "topic": "Reparación reactiva multiagente",
+                "difficulty": "alta",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

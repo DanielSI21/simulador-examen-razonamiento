@@ -1,0 +1,1514 @@
+window.EXAM_DATA = {
+  "exam": {
+    "title": "Simulador de examen de Razonamiento y Planificación Automática",
+    "version": "1.0",
+    "language": "es",
+    "settings": {
+      "show_feedback_on_correct": true,
+      "show_feedback_on_incorrect": true,
+      "shuffle_questions": false,
+      "shuffle_options": true,
+      "pass_mode": "single_answer"
+    },
+    "sections": [
+      {
+        "id": "verdadero_falso",
+        "title": "Verdadero o Falso",
+        "type": "true_false",
+        "topics": [
+          {
+            "id": "toma_de_decisiones",
+            "title": "Toma de decisiones",
+            "questions": [
+              {
+                "id": 1,
+                "text": "Cuando una situación necesita ser analizada y una decisión tomada, es necesario asumir un riesgo.",
+                "correct_option": "Verdadero",
+                "incorrect_options": [
+                  "Falso"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La guía indica que decidir implica asumir un riesgo y evaluar cómo reducirlo.",
+                  "incorrect": "Incorrecto. La toma de decisiones se relaciona directamente con la asunción, evaluación e identificación del riesgo."
+                },
+                "topic": "Toma de decisiones",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 2,
+                "text": "Las decisiones no programadas se aplican a problemas de rutina que se repiten periódicamente.",
+                "correct_option": "Falso",
+                "incorrect_options": [
+                  "Verdadero"
+                ],
+                "feedback": {
+                  "correct": "Correcto. Esa descripción corresponde a decisiones programadas; las no programadas tratan situaciones nuevas o desconocidas.",
+                  "incorrect": "Incorrecto. Las decisiones no programadas no cuentan con reglas o métodos establecidos como guía."
+                },
+                "topic": "Toma de decisiones",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "resolucion_de_problemas",
+            "title": "Resolución de problemas",
+            "questions": [
+              {
+                "id": 3,
+                "text": "En la primera etapa de resolución de problemas, el objetivo es comprender la complejidad del problema.",
+                "correct_option": "Verdadero",
+                "incorrect_options": [
+                  "Falso"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La primera etapa busca comprender la complejidad antes de decidir o resolver.",
+                  "incorrect": "Incorrecto. La guía ubica la comprensión de la complejidad como objetivo de la primera etapa."
+                },
+                "topic": "Resolución de problemas",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 4,
+                "text": "La calidad de la información no influye en la calidad de la toma de decisiones.",
+                "correct_option": "Falso",
+                "incorrect_options": [
+                  "Verdadero"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La guía afirma que a mayor calidad de la información, mejor calidad de la decisión.",
+                  "incorrect": "Incorrecto. La información es primordial y su calidad mejora la toma de decisiones."
+                },
+                "topic": "Resolución de problemas",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "agentes_busqueda_planificacion",
+            "title": "Agentes, búsqueda y planificación",
+            "questions": [
+              {
+                "id": 5,
+                "text": "Los agentes basados en búsquedas y planificación alcanzan una meta explorando el espacio de estados.",
+                "correct_option": "Verdadero",
+                "incorrect_options": [
+                  "Falso"
+                ],
+                "feedback": {
+                  "correct": "Correcto. Estos agentes resuelven el problema de llegar a una meta mediante exploración de estados.",
+                  "incorrect": "Incorrecto. La exploración del espacio de estados es el mecanismo indicado para estos agentes."
+                },
+                "topic": "Agentes, búsqueda y planificación",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "representacion_conocimiento_razonamiento",
+            "title": "Representación del conocimiento y razonamiento",
+            "questions": [
+              {
+                "id": 6,
+                "text": "Para resolver problemas de modo natural es necesario llevar a cabo un análisis preciso del conocimiento.",
+                "correct_option": "Verdadero",
+                "incorrect_options": [
+                  "Falso"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La guía presenta el análisis preciso del conocimiento como requisito para resolver problemas naturalmente.",
+                  "incorrect": "Incorrecto. El análisis del conocimiento es una condición explícita del tema."
+                },
+                "topic": "Representación del conocimiento y razonamiento",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 7,
+                "text": "Un razonamiento inválido puede producir una conclusión falsa a partir de premisas verdaderas.",
+                "correct_option": "Verdadero",
+                "incorrect_options": [
+                  "Falso"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La guía define así el razonamiento inválido.",
+                  "incorrect": "Incorrecto. La invalidez se reconoce cuando premisas verdaderas conducen a una conclusión falsa."
+                },
+                "topic": "Representación del conocimiento y razonamiento",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 8,
+                "text": "En el razonamiento inductivo, la conclusión se obtiene obligatoriamente de las premisas.",
+                "correct_option": "Falso",
+                "incorrect_options": [
+                  "Verdadero"
+                ],
+                "feedback": {
+                  "correct": "Correcto. En la inducción, la conclusión se basa en observación directa de casos particulares, pero no se obtiene obligatoriamente de las premisas.",
+                  "incorrect": "Incorrecto. Esa necesidad lógica corresponde al contraste con el razonamiento deductivo."
+                },
+                "topic": "Representación del conocimiento y razonamiento",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "tipos_de_logica",
+            "title": "Tipos de lógica",
+            "questions": [
+              {
+                "id": 9,
+                "text": "Una proposición es una afirmación o expresión con significado de la que puede decirse si es falsa o verdadera.",
+                "correct_option": "Verdadero",
+                "incorrect_options": [
+                  "Falso"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La guía define la proposición por su significado y por admitir los valores F/0 o V/1.",
+                  "incorrect": "Incorrecto. La proposición se caracteriza precisamente por poder evaluarse como falsa o verdadera."
+                },
+                "topic": "Tipos de lógica",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 10,
+                "text": "La lógica multivaluada emplea exclusivamente dos valores de verdad: verdadero y falso.",
+                "correct_option": "Falso",
+                "incorrect_options": [
+                  "Verdadero"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La lógica multivaluada emplea más de dos valores de verdad e incluye valores intermedios.",
+                  "incorrect": "Incorrecto. La descripción de solo dos valores corresponde a una lógica bivalente, no multivaluada."
+                },
+                "topic": "Tipos de lógica",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "problemas_de_busqueda",
+            "title": "Problemas de búsqueda",
+            "questions": [
+              {
+                "id": 11,
+                "text": "La búsqueda no informada emplea una función heurística para guiar la búsqueda.",
+                "correct_option": "Falso",
+                "incorrect_options": [
+                  "Verdadero"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La búsqueda no informada no usa heurística y evalúa el siguiente estado sin saber si es mejor o peor.",
+                  "incorrect": "Incorrecto. El uso de heurística corresponde a la búsqueda informada."
+                },
+                "topic": "Problemas de búsqueda",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 12,
+                "text": "BFS expande todos los nodos de nivel i antes de expandir los nodos de nivel i+1.",
+                "correct_option": "Verdadero",
+                "incorrect_options": [
+                  "Falso"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La búsqueda en amplitud genera el árbol por niveles de profundidad.",
+                  "incorrect": "Incorrecto. La expansión por niveles es la propiedad central de BFS."
+                },
+                "topic": "Problemas de búsqueda",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "busqueda_informada",
+            "title": "Búsqueda informada",
+            "questions": [
+              {
+                "id": 13,
+                "text": "La función heurística es dependiente del estado y se usa para evaluar qué tan prometedor es un nodo.",
+                "correct_option": "Verdadero",
+                "incorrect_options": [
+                  "Falso"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La guía describe la heurística como dependiente del estado y útil para valorar nodos prometedores.",
+                  "incorrect": "Incorrecto. Esa función permite guiar la búsqueda informada."
+                },
+                "topic": "Búsqueda informada",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "busqueda_entre_adversarios",
+            "title": "Búsqueda entre adversarios",
+            "questions": [
+              {
+                "id": 14,
+                "text": "Los problemas entre adversarios ocurren cuando más de un agente especializado actúa de modo concurrente en un mismo entorno.",
+                "correct_option": "Verdadero",
+                "incorrect_options": [
+                  "Falso"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La guía define así los problemas entre adversarios.",
+                  "incorrect": "Incorrecto. La concurrencia de más de un agente especializado en el mismo entorno es parte de la definición."
+                },
+                "topic": "Búsqueda entre adversarios",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 15,
+                "text": "La poda alfa-beta obliga a revisar todos los nodos del árbol para tomar una decisión minimax correcta.",
+                "correct_option": "Falso",
+                "incorrect_options": [
+                  "Verdadero"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La poda alfa-beta permite tomar una decisión minimax correcta sin mirar todos los nodos.",
+                  "incorrect": "Incorrecto. La ventaja de alfa-beta es evitar revisar partes innecesarias del árbol."
+                },
+                "topic": "Búsqueda entre adversarios",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "problemas_de_planificacion",
+            "title": "Problemas de planificación",
+            "questions": [
+              {
+                "id": 16,
+                "text": "La planificación automática apunta a secuencias ordenadas de acciones que alcanzan objetivos específicos.",
+                "correct_option": "Verdadero",
+                "incorrect_options": [
+                  "Falso"
+                ],
+                "feedback": {
+                  "correct": "Correcto. Esas secuencias ordenadas de acciones se definen como planes.",
+                  "incorrect": "Incorrecto. La planificación automática busca precisamente planes para alcanzar objetivos."
+                },
+                "topic": "Problemas de planificación",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 17,
+                "text": "La planificación clásica trabaja sobre un entorno no determinista, dinámico y parcialmente observable.",
+                "correct_option": "Falso",
+                "incorrect_options": [
+                  "Verdadero"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La planificación clásica restringe el entorno a un modelo determinista, estático y totalmente observable.",
+                  "incorrect": "Incorrecto. Esas condiciones contradicen el modelo restringido de planificación clásica."
+                },
+                "topic": "Problemas de planificación",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "sistemas_strips",
+            "title": "Sistemas basados en STRIPS",
+            "questions": [
+              {
+                "id": 18,
+                "text": "PDDL describe los componentes de un planificador en una definición del dominio y una definición del problema.",
+                "correct_option": "Verdadero",
+                "incorrect_options": [
+                  "Falso"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La guía divide PDDL en los conjuntos de dominio y problema.",
+                  "incorrect": "Incorrecto. PDDL se basa justamente en esas dos definiciones."
+                },
+                "topic": "Sistemas basados en STRIPS",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "redes_tareas_jerarquicas_htn",
+            "title": "Redes de tareas jerárquicas HTN",
+            "questions": [
+              {
+                "id": 19,
+                "text": "En HTN, una tarea compuesta puede descomponerse en subtareas refinadas.",
+                "correct_option": "Verdadero",
+                "incorrect_options": [
+                  "Falso"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La red de tareas organiza tareas primitivas y compuestas en una jerarquía.",
+                  "incorrect": "Incorrecto. La descomposición de tareas compuestas es central en HTN."
+                },
+                "topic": "Redes de tareas jerárquicas HTN",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "planificacion_multiples_agentes",
+            "title": "Planificación por múltiples agentes",
+            "questions": [
+              {
+                "id": 20,
+                "text": "FMAP mantiene un liderazgo democrático y no utiliza control por mensajes broadcast.",
+                "correct_option": "Verdadero",
+                "incorrect_options": [
+                  "Falso"
+                ],
+                "feedback": {
+                  "correct": "Correcto. FMAP planifica un rol de coordinador entre agentes en lugar de controlar por broadcast.",
+                  "incorrect": "Incorrecto. La guía afirma explícitamente que FMAP no usa broadcast y mantiene liderazgo democrático."
+                },
+                "topic": "Planificación por múltiples agentes",
+                "difficulty": "alta",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "opcion_multiple",
+        "title": "Opción múltiple",
+        "type": "multiple_choice",
+        "topics": [
+          {
+            "id": "toma_de_decisiones",
+            "title": "Toma de decisiones",
+            "questions": [
+              {
+                "id": 21,
+                "text": "La capacidad de tomar decisiones está relacionada con la asunción de riesgo, la creatividad y la ______.",
+                "correct_option": "búsqueda de alternativas",
+                "incorrect_options": [
+                  "aplicación de reglas rutinarias",
+                  "ausencia de análisis del riesgo"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La guía vincula la toma de decisiones con creatividad y búsqueda de alternativas ante retos nuevos.",
+                  "incorrect": "Incorrecto. La relación señalada no es con repetir reglas, sino con asumir riesgo, crear alternativas y decidir medidas."
+                },
+                "topic": "Toma de decisiones",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 22,
+                "text": "Son decisiones de rutina, se repiten periódicamente y tratan problemas bien definidos.",
+                "correct_option": "Decisiones programadas",
+                "incorrect_options": [
+                  "Decisiones no programadas",
+                  "Situaciones nuevas sin reglas"
+                ],
+                "feedback": {
+                  "correct": "Correcto. Las decisiones programadas son rutinarias, periódicas y asociadas con problemas bien definidos.",
+                  "incorrect": "Incorrecto. Las decisiones no programadas se relacionan con entornos desconocidos y ausencia de reglas establecidas."
+                },
+                "topic": "Toma de decisiones",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 23,
+                "text": "Las decisiones ______ se relacionan con entornos desconocidos, situaciones nuevas y ausencia de reglas establecidas.",
+                "correct_option": "no programadas",
+                "incorrect_options": [
+                  "programadas",
+                  "rutinarias"
+                ],
+                "feedback": {
+                  "correct": "Correcto. Las decisiones no programadas aparecen ante condiciones desconocidas y sin métodos establecidos.",
+                  "incorrect": "Incorrecto. Las decisiones programadas o rutinarias sí cuentan con repetición y problemas bien definidos."
+                },
+                "topic": "Toma de decisiones",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 24,
+                "text": "Un problema bien definido se asocia en la guía con decisiones ______.",
+                "correct_option": "programadas",
+                "incorrect_options": [
+                  "no programadas",
+                  "multivaluadas"
+                ],
+                "feedback": {
+                  "correct": "Correcto. Las decisiones programadas tienen que ver con problemas bien definidos.",
+                  "incorrect": "Incorrecto. Los entornos desconocidos y situaciones nuevas corresponden a decisiones no programadas."
+                },
+                "topic": "Toma de decisiones",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 25,
+                "text": "¿Qué debe decidirse después de evaluar e identificar el riesgo involucrado?",
+                "correct_option": "Las medidas para que el riesgo sea mínimo",
+                "incorrect_options": [
+                  "Las reglas de rutina para repetir la decisión",
+                  "La clasificación lógica de las proposiciones"
+                ],
+                "feedback": {
+                  "correct": "Correcto. Tras identificar el riesgo, la guía indica decidir medidas para que este sea mínimo.",
+                  "incorrect": "Incorrecto. La toma de decisiones aquí se centra en reducir el riesgo, no en repetir rutinas ni clasificar proposiciones."
+                },
+                "topic": "Toma de decisiones",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 26,
+                "text": "Una situación nueva sin reglas o métodos establecidos es característica de una decisión ______.",
+                "correct_option": "no programada",
+                "incorrect_options": [
+                  "programada",
+                  "deductiva"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La decisión no programada se presenta ante situaciones nuevas o entornos desconocidos.",
+                  "incorrect": "Incorrecto. Una decisión programada es rutinaria y guiada por problemas bien definidos."
+                },
+                "topic": "Toma de decisiones",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "resolucion_de_problemas",
+            "title": "Resolución de problemas",
+            "questions": [
+              {
+                "id": 27,
+                "text": "A mayor calidad de la información, mejor es la calidad de la ______.",
+                "correct_option": "toma de decisiones",
+                "incorrect_options": [
+                  "lógica multivaluada",
+                  "poda del árbol"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La guía relaciona directamente la calidad de la información con la calidad de la decisión.",
+                  "incorrect": "Incorrecto. El efecto de la información se plantea sobre la toma de decisiones."
+                },
+                "topic": "Resolución de problemas",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 28,
+                "text": "La clasificación ______ organiza problemas según urgencia e importancia.",
+                "correct_option": "ERIM",
+                "incorrect_options": [
+                  "seis interrogantes",
+                  "diagrama de espina de pez"
+                ],
+                "feedback": {
+                  "correct": "Correcto. ERIM clasifica problemas mediante urgencia e importancia.",
+                  "incorrect": "Incorrecto. Los seis interrogantes explican el problema con preguntas guía y el diagrama de espina de pez organiza causas."
+                },
+                "topic": "Resolución de problemas",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 29,
+                "text": "El método de los ______ pregunta cuál es el problema, cómo sucede, por qué ocurre, a quién afecta, dónde sucede y cuándo pasa.",
+                "correct_option": "seis interrogantes",
+                "incorrect_options": [
+                  "veinte valores",
+                  "dos predicados"
+                ],
+                "feedback": {
+                  "correct": "Correcto. Los seis interrogantes ayudan a explicar el problema desde varias preguntas básicas.",
+                  "incorrect": "Incorrecto. La técnica indicada pregunta seis aspectos del problema."
+                },
+                "topic": "Resolución de problemas",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 30,
+                "text": "La técnica ______ consiste en listar posibles elementos causantes y quedarse con los veinte más importantes.",
+                "correct_option": "las veinte causas",
+                "incorrect_options": [
+                  "mapas mentales",
+                  "poda alfa-beta"
+                ],
+                "feedback": {
+                  "correct": "Correcto. Las veinte causas filtran una lista de posibles causas hasta conservar las más importantes.",
+                  "incorrect": "Incorrecto. Los mapas mentales generan ideas; alfa-beta pertenece a búsqueda adversaria."
+                },
+                "topic": "Resolución de problemas",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 31,
+                "text": "El diagrama de ______ permite mostrar causas de un problema, organizarlas y asignarles pesos o valores.",
+                "correct_option": "espina de pez",
+                "incorrect_options": [
+                  "veinte causas",
+                  "mapas mentales"
+                ],
+                "feedback": {
+                  "correct": "Correcto. El diagrama de espina de pez organiza causas principales y secundarias y puede asignarles pesos.",
+                  "incorrect": "Incorrecto. Las veinte causas depuran una lista de causas y los mapas mentales ayudan a generar ideas."
+                },
+                "topic": "Resolución de problemas",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 32,
+                "text": "Los ______ sirven para crear ideas a partir del análisis sistemático y detallado del problema.",
+                "correct_option": "mapas mentales",
+                "incorrect_options": [
+                  "nodos de azar",
+                  "valores F/0"
+                ],
+                "feedback": {
+                  "correct": "Correcto. Los mapas mentales expresan razonamiento radiante y ayudan a generar ideas.",
+                  "incorrect": "Incorrecto. Los mapas mentales son la técnica de generación de ideas vinculada al análisis del problema."
+                },
+                "topic": "Resolución de problemas",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "agentes_busqueda_planificacion",
+            "title": "Agentes, búsqueda y planificación",
+            "questions": [
+              {
+                "id": 33,
+                "text": "Estos agentes resuelven problemas por medio de la exploración del ______.",
+                "correct_option": "espacio de estados",
+                "incorrect_options": [
+                  "conjunto de reglas establecidas",
+                  "diagrama de causas"
+                ],
+                "feedback": {
+                  "correct": "Correcto. Los agentes basados en búsqueda y planificación exploran el espacio de estados para alcanzar una meta.",
+                  "incorrect": "Incorrecto. Las reglas establecidas se asocian con decisiones programadas y el diagrama de causas explica problemas."
+                },
+                "topic": "Agentes, búsqueda y planificación",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 34,
+                "text": "Según Wooldridge, las arquitecturas de agentes se clasifican en deliberativas, reactivas e ______.",
+                "correct_option": "híbridas",
+                "incorrect_options": [
+                  "inductivas",
+                  "multivaluadas"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La clasificación citada incluye arquitecturas deliberativas, reactivas e híbridas.",
+                  "incorrect": "Incorrecto. Inductivo y multivaluado pertenecen a razonamiento y lógica, no a esa clasificación de arquitecturas."
+                },
+                "topic": "Agentes, búsqueda y planificación",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 35,
+                "text": "¿Cuál opción contiene solo categorías de arquitectura de agentes según Wooldridge?",
+                "correct_option": "Deliberativas, reactivas e híbridas",
+                "incorrect_options": [
+                  "Programadas, no programadas y difusas",
+                  "BFS, DFS y A*"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La guía presenta esas tres categorías principales de arquitectura de agentes.",
+                  "incorrect": "Incorrecto. Las otras opciones mezclan tipos de decisión o algoritmos de búsqueda."
+                },
+                "topic": "Agentes, búsqueda y planificación",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "representacion_conocimiento_razonamiento",
+            "title": "Representación del conocimiento y razonamiento",
+            "questions": [
+              {
+                "id": 36,
+                "text": "En todo razonamiento existen dos elementos: contenido y ______.",
+                "correct_option": "forma",
+                "incorrect_options": [
+                  "heurística",
+                  "broadcast"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La guía señala contenido y forma como elementos de todo razonamiento.",
+                  "incorrect": "Incorrecto. Forma es el segundo elemento del razonamiento junto con contenido."
+                },
+                "topic": "Representación del conocimiento y razonamiento",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 37,
+                "text": "El razonamiento se clasifica en deductivo y ______.",
+                "correct_option": "no deductivo",
+                "incorrect_options": [
+                  "no observable",
+                  "no determinista"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La guía clasifica el razonamiento en deductivo y no deductivo.",
+                  "incorrect": "Incorrecto. No observable y no determinista describen entornos, no clases de razonamiento."
+                },
+                "topic": "Representación del conocimiento y razonamiento",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 38,
+                "text": "Se produce cuando, a partir de premisas verdaderas, se obtiene una conclusión falsa.",
+                "correct_option": "Razonamiento inválido",
+                "incorrect_options": [
+                  "Razonamiento inductivo",
+                  "Silogismo válido"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La guía define el razonamiento inválido por premisas verdaderas con conclusión falsa.",
+                  "incorrect": "Incorrecto. Esa condición describe invalidez, no inducción ni silogismo válido."
+                },
+                "topic": "Representación del conocimiento y razonamiento",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 39,
+                "text": "El método inductivo fue propuesto por ______.",
+                "correct_option": "Francis Bacon",
+                "incorrect_options": [
+                  "Aristóteles",
+                  "Wooldridge"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La guía atribuye el método inductivo a Francis Bacon.",
+                  "incorrect": "Incorrecto. Aristóteles se menciona como padre de la lógica y Wooldridge por la clasificación de arquitecturas de agentes."
+                },
+                "topic": "Representación del conocimiento y razonamiento",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 40,
+                "text": "El método inductivo busca generalizar conclusiones universales a partir de ______.",
+                "correct_option": "casos particulares",
+                "incorrect_options": [
+                  "nodos podados",
+                  "mensajes broadcast"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La inducción parte de observaciones particulares para generalizar conclusiones.",
+                  "incorrect": "Incorrecto. La base del método inductivo son los casos particulares observados."
+                },
+                "topic": "Representación del conocimiento y razonamiento",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 41,
+                "text": "Una característica del método inductivo mencionada en la guía es su ______.",
+                "correct_option": "riqueza de información",
+                "incorrect_options": [
+                  "ausencia de observación",
+                  "garantía obligatoria de conclusión"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La guía afirma que el método inductivo tiene riqueza de información.",
+                  "incorrect": "Incorrecto. La inducción se apoya en observación y su conclusión no se obtiene obligatoriamente de las premisas."
+                },
+                "topic": "Representación del conocimiento y razonamiento",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 42,
+                "text": "La conclusión del razonamiento inductivo se obtiene mediante observación directa de ______.",
+                "correct_option": "casos particulares",
+                "incorrect_options": [
+                  "valores alfa y beta",
+                  "planes parciales finales"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La guía diferencia la inducción por basarse en la observación directa de casos particulares.",
+                  "incorrect": "Incorrecto. Los valores alfa-beta pertenecen a búsqueda adversaria y los planes parciales a planificación."
+                },
+                "topic": "Representación del conocimiento y razonamiento",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "tipos_de_logica",
+            "title": "Tipos de lógica",
+            "questions": [
+              {
+                "id": 43,
+                "text": "La lógica es la ciencia que expone leyes, modos y formas de las proposiciones en relación con su ______.",
+                "correct_option": "verdad o falsedad",
+                "incorrect_options": [
+                  "urgencia o importancia",
+                  "costo o profundidad"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La definición citada relaciona la lógica con verdad o falsedad de proposiciones.",
+                  "incorrect": "Incorrecto. Urgencia e importancia corresponden a ERIM; costo y profundidad a búsqueda."
+                },
+                "topic": "Tipos de lógica",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 44,
+                "text": "La lógica ______ utiliza proposiciones que representan afirmaciones verdaderas o falsas.",
+                "correct_option": "proposicional",
+                "incorrect_options": [
+                  "multivaluada",
+                  "jerárquica"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La lógica proposicional trabaja con afirmaciones que pueden ser verdaderas o falsas.",
+                  "incorrect": "Incorrecto. Multivaluada agrega valores intermedios y jerárquica alude a HTN."
+                },
+                "topic": "Tipos de lógica",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 45,
+                "text": "El filósofo considerado padre de la lógica es ______.",
+                "correct_option": "Aristóteles",
+                "incorrect_options": [
+                  "Francis Bacon",
+                  "Russell"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La guía considera a Aristóteles padre de la lógica por su interés en el razonamiento lógico.",
+                  "incorrect": "Incorrecto. Francis Bacon se asocia con inducción y Russell aparece en la definición de planificación."
+                },
+                "topic": "Tipos de lógica",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 46,
+                "text": "El silogismo está formado por dos premisas y una ______.",
+                "correct_option": "conclusión",
+                "incorrect_options": [
+                  "heurística",
+                  "meta abierta"
+                ],
+                "feedback": {
+                  "correct": "Correcto. El silogismo se compone de dos premisas y una conclusión deducida de estas.",
+                  "incorrect": "Incorrecto. La conclusión es el resultado lógico que se deduce en el silogismo."
+                },
+                "topic": "Tipos de lógica",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 47,
+                "text": "Una proposición falsa se representa en la guía como ______.",
+                "correct_option": "F/0",
+                "incorrect_options": [
+                  "V/1",
+                  "valor intermedio"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La guía usa F/0 para falso y V/1 para verdadero.",
+                  "incorrect": "Incorrecto. V/1 representa verdadero y los valores intermedios corresponden a la lógica multivaluada."
+                },
+                "topic": "Tipos de lógica",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 48,
+                "text": "Las lógicas descriptivas son apropiadas para la web semántica porque agregan ______ a la red de redes.",
+                "correct_option": "razonamiento",
+                "incorrect_options": [
+                  "poda",
+                  "broadcast"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La guía indica que son útiles para agregar razonamiento a la web semántica.",
+                  "incorrect": "Incorrecto. Las lógicas descriptivas se relacionan con razonamiento en la web semántica."
+                },
+                "topic": "Tipos de lógica",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 49,
+                "text": "La lógica ______ permite valores intermedios como grande, tibio, lejos, pocos o muchos.",
+                "correct_option": "multivaluada",
+                "incorrect_options": [
+                  "proposicional",
+                  "deductiva"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La lógica multivaluada permite más de dos valores de verdad y valores intermedios.",
+                  "incorrect": "Incorrecto. La lógica proposicional básica se centra en verdadero o falso; deductivo es un tipo de razonamiento."
+                },
+                "topic": "Tipos de lógica",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 50,
+                "text": "Las lógicas multivaluadas permiten describir formalmente información ______.",
+                "correct_option": "difusa, vaga o incierta",
+                "incorrect_options": [
+                  "programada, rutinaria o periódica",
+                  "determinista, estática y observable"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La guía menciona información difusa, vaga o incierta como ámbito de estas lógicas.",
+                  "incorrect": "Incorrecto. Las otras opciones describen decisiones programadas o planificación clásica."
+                },
+                "topic": "Tipos de lógica",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "problemas_de_busqueda",
+            "title": "Problemas de búsqueda",
+            "questions": [
+              {
+                "id": 51,
+                "text": "Una función heurística se define como una estimación de lo que falta para conseguir el ______.",
+                "correct_option": "objetivo",
+                "incorrect_options": [
+                  "siguiente estado sin guía",
+                  "valor de verdad de una proposición"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La función heurística estima lo que falta para conseguir el objetivo.",
+                  "incorrect": "Incorrecto. Evaluar sin guía describe búsqueda no informada; la heurística estima avance hacia el objetivo."
+                },
+                "topic": "Problemas de búsqueda",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 52,
+                "text": "La búsqueda ______ no emplea ningún tipo de heurística.",
+                "correct_option": "no informada",
+                "incorrect_options": [
+                  "informada",
+                  "multivaluada"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La búsqueda no informada carece de guía heurística.",
+                  "incorrect": "Incorrecto. La búsqueda informada sí utiliza una función heurística."
+                },
+                "topic": "Problemas de búsqueda",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 53,
+                "text": "En una búsqueda sin guía, el siguiente estado se evalúa sin conocer a priori si es mejor o peor que el anterior. ¿Qué tipo de búsqueda es?",
+                "correct_option": "Búsqueda no informada",
+                "incorrect_options": [
+                  "Búsqueda informada",
+                  "Búsqueda por subobjetivos"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La ausencia de heurística impide saber si el siguiente estado mejora el anterior.",
+                  "incorrect": "Incorrecto. La búsqueda informada y por subobjetivos introducen guía o estructura adicional."
+                },
+                "topic": "Problemas de búsqueda",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 54,
+                "text": "La búsqueda ______ emplea una función heurística para guiar la búsqueda hacia soluciones óptimas.",
+                "correct_option": "informada",
+                "incorrect_options": [
+                  "no informada",
+                  "reactiva"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La guía define la búsqueda informada por el uso de heurística para orientar la exploración.",
+                  "incorrect": "Incorrecto. La búsqueda no informada no usa heurística como guía."
+                },
+                "topic": "Problemas de búsqueda",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 55,
+                "text": "La búsqueda en amplitud también se conoce por sus siglas ______.",
+                "correct_option": "BFS",
+                "incorrect_options": [
+                  "DFS",
+                  "POP"
+                ],
+                "feedback": {
+                  "correct": "Correcto. BFS corresponde a búsqueda en amplitud.",
+                  "incorrect": "Incorrecto. DFS es búsqueda en profundidad y POP es plan parcialmente ordenado."
+                },
+                "topic": "Problemas de búsqueda",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 56,
+                "text": "BFS genera el árbol de búsqueda por niveles de ______.",
+                "correct_option": "profundidad",
+                "incorrect_options": [
+                  "incertidumbre",
+                  "coordinación"
+                ],
+                "feedback": {
+                  "correct": "Correcto. BFS expande niveles completos antes de avanzar al siguiente nivel.",
+                  "incorrect": "Incorrecto. La organización por niveles de profundidad distingue a BFS."
+                },
+                "topic": "Problemas de búsqueda",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 57,
+                "text": "La búsqueda en profundidad también se conoce por sus siglas ______.",
+                "correct_option": "DFS",
+                "incorrect_options": [
+                  "BFS",
+                  "PDDL"
+                ],
+                "feedback": {
+                  "correct": "Correcto. DFS corresponde a búsqueda en profundidad.",
+                  "incorrect": "Incorrecto. BFS es búsqueda en amplitud y PDDL es un lenguaje de planificación."
+                },
+                "topic": "Problemas de búsqueda",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 58,
+                "text": "DFS intenta desarrollar un camino de longitud indeterminada para alcanzar metas ______.",
+                "correct_option": "profundas",
+                "incorrect_options": [
+                  "multivaluadas",
+                  "programadas"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La búsqueda en profundidad intenta llegar a metas profundas con menores ramificaciones.",
+                  "incorrect": "Incorrecto. DFS se caracteriza por profundizar en un camino, no por valores lógicos o decisiones rutinarias."
+                },
+                "topic": "Problemas de búsqueda",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "busqueda_informada",
+            "title": "Búsqueda informada",
+            "questions": [
+              {
+                "id": 59,
+                "text": "¿Cuál de los siguientes aparece en la guía como algoritmo que usa búsqueda informada?",
+                "correct_option": "Algoritmo A*",
+                "incorrect_options": [
+                  "Minimax",
+                  "Diagrama de espina de pez"
+                ],
+                "feedback": {
+                  "correct": "Correcto. A* aparece en la lista de algoritmos de búsqueda informada.",
+                  "incorrect": "Incorrecto. Minimax es de adversarios y el diagrama de espina de pez es una técnica para explicar problemas."
+                },
+                "topic": "Búsqueda informada",
+                "difficulty": "alta",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 60,
+                "text": "La búsqueda por ______ aparece en la guía como algoritmo de búsqueda informada.",
+                "correct_option": "subobjetivos",
+                "incorrect_options": [
+                  "silogismos",
+                  "broadcast"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La búsqueda por subobjetivos forma parte de los algoritmos de búsqueda informada listados.",
+                  "incorrect": "Incorrecto. Los silogismos pertenecen a lógica y broadcast a comunicación multiagente."
+                },
+                "topic": "Búsqueda informada",
+                "difficulty": "alta",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 61,
+                "text": "En la guía, hill climbing aparece asociado a la búsqueda ______.",
+                "correct_option": "online",
+                "incorrect_options": [
+                  "en amplitud",
+                  "entre adversarios"
+                ],
+                "feedback": {
+                  "correct": "Correcto. Hill climbing se muestra como elemento asociado a búsqueda online dentro de búsqueda informada.",
+                  "incorrect": "Incorrecto. La guía ubica hill climbing bajo búsqueda online, no bajo BFS ni adversarios."
+                },
+                "topic": "Búsqueda informada",
+                "difficulty": "alta",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "busqueda_entre_adversarios",
+            "title": "Búsqueda entre adversarios",
+            "questions": [
+              {
+                "id": 62,
+                "text": "Algoritmo de adversarios definido como método de decisión para minimizar la pérdida máxima esperada.",
+                "correct_option": "Minimax",
+                "incorrect_options": [
+                  "Poda alfa-beta",
+                  "Expectiminimax"
+                ],
+                "feedback": {
+                  "correct": "Correcto. Minimax se define en la guía como método para minimizar la pérdida máxima esperada en juegos con adversario.",
+                  "incorrect": "Incorrecto. Poda alfa-beta optimiza la exploración de minimax y expectiminimax aparece como otro algoritmo adversario."
+                },
+                "topic": "Búsqueda entre adversarios",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 63,
+                "text": "Minimax es un método de decisión para minimizar la pérdida máxima esperada en juegos con adversario y con información ______.",
+                "correct_option": "perfecta",
+                "incorrect_options": [
+                  "difusa",
+                  "incompleta por definición"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La guía caracteriza minimax por juegos con adversario e información perfecta.",
+                  "incorrect": "Incorrecto. La información perfecta es una condición explícita de minimax en la guía."
+                },
+                "topic": "Búsqueda entre adversarios",
+                "difficulty": "alta",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 64,
+                "text": "La poda ______ permite tomar una decisión minimax correcta sin mirar todos los nodos del árbol.",
+                "correct_option": "alfa-beta",
+                "incorrect_options": [
+                  "minimax",
+                  "expectiminimax"
+                ],
+                "feedback": {
+                  "correct": "Correcto. Alfa-beta permite tomar una decisión minimax correcta sin mirar todos los nodos.",
+                  "incorrect": "Incorrecto. Minimax define la decisión base y expectiminimax es otro algoritmo adversario; la poda que evita revisar nodos es alfa-beta."
+                },
+                "topic": "Búsqueda entre adversarios",
+                "difficulty": "alta",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 65,
+                "text": "Además de minimax y poda alfa-beta, ¿qué algoritmo aparece listado en búsqueda entre adversarios?",
+                "correct_option": "Expectiminimax",
+                "incorrect_options": [
+                  "A*",
+                  "BFS"
+                ],
+                "feedback": {
+                  "correct": "Correcto. Expectiminimax aparece junto con minimax y poda alfa-beta en la lista de algoritmos adversarios.",
+                  "incorrect": "Incorrecto. A* pertenece a búsqueda informada y BFS a búsqueda no informada."
+                },
+                "topic": "Búsqueda entre adversarios",
+                "difficulty": "alta",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 66,
+                "text": "Los problemas entre adversarios involucran más de un agente especializado actuando de modo ______.",
+                "correct_option": "concurrente",
+                "incorrect_options": [
+                  "atómico",
+                  "univalente"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La guía enfatiza la actuación concurrente en un mismo entorno.",
+                  "incorrect": "Incorrecto. Concurrente describe cómo actúan los agentes especializados en problemas adversarios."
+                },
+                "topic": "Búsqueda entre adversarios",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "problemas_de_planificacion",
+            "title": "Problemas de planificación",
+            "questions": [
+              {
+                "id": 67,
+                "text": "La planificación se define como búsqueda formalizada de secuencias de acciones que parten del estado actual y satisfacen una ______.",
+                "correct_option": "meta",
+                "incorrect_options": [
+                  "premisa falsa",
+                  "urgencia"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La planificación busca acciones que desde el estado actual satisfagan una meta.",
+                  "incorrect": "Incorrecto. La meta es el objetivo que debe lograr el plan."
+                },
+                "topic": "Problemas de planificación",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 68,
+                "text": "La planificación clásica trabaja sobre un modelo restringido del entorno que es determinista, estático y ______.",
+                "correct_option": "totalmente observable",
+                "incorrect_options": [
+                  "parcialmente observable",
+                  "difuso"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La guía enumera determinista, estático y totalmente observable como restricciones clásicas.",
+                  "incorrect": "Incorrecto. Parcialmente observable y difuso no corresponden al modelo clásico descrito."
+                },
+                "topic": "Problemas de planificación",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 69,
+                "text": "Una ______ es un paso simple y atómico dentro de un plan.",
+                "correct_option": "acción",
+                "incorrect_options": [
+                  "plan",
+                  "meta"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La guía define acción como paso simple y atómico dentro de un plan.",
+                  "incorrect": "Incorrecto. El plan es la secuencia de acciones y la meta es el objetivo que el plan debe satisfacer."
+                },
+                "topic": "Problemas de planificación",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 70,
+                "text": "En el proceso de planificación, el agente proporciona al sistema planificador un estado actual, un conjunto de acciones y una ______.",
+                "correct_option": "meta",
+                "incorrect_options": [
+                  "conclusión inductiva",
+                  "matriz ERIM"
+                ],
+                "feedback": {
+                  "correct": "Correcto. Con esos elementos, el planificador busca un plan que satisfaga la meta.",
+                  "incorrect": "Incorrecto. La meta completa la entrada del proceso de planificación descrito."
+                },
+                "topic": "Problemas de planificación",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 71,
+                "text": "Un plan parcialmente ordenado especifica solo algunas ______ entre sus acciones.",
+                "correct_option": "precedencias",
+                "incorrect_options": [
+                  "falacias",
+                  "incertidumbres"
+                ],
+                "feedback": {
+                  "correct": "Correcto. POP especifica algunas precedencias, no un orden total de todas las acciones.",
+                  "incorrect": "Incorrecto. Las precedencias entre acciones son el rasgo central de un plan parcialmente ordenado."
+                },
+                "topic": "Problemas de planificación",
+                "difficulty": "alta",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 72,
+                "text": "Un algoritmo POP busca en el espacio de planes parciales para encontrar el ______.",
+                "correct_option": "plan parcial final",
+                "incorrect_options": [
+                  "valor F/0",
+                  "problema no programado"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La guía indica que POP usa búsqueda en planes parciales hasta hallar el plan parcial final.",
+                  "incorrect": "Incorrecto. El resultado buscado por POP es un plan parcial final."
+                },
+                "topic": "Problemas de planificación",
+                "difficulty": "alta",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "sistemas_strips",
+            "title": "Sistemas basados en STRIPS",
+            "questions": [
+              {
+                "id": 73,
+                "text": "La heurística ______ consiste en encontrar planes parciales para alcanzar cada proposición del estado objetivo o meta.",
+                "correct_option": "STRIPS",
+                "incorrect_options": [
+                  "ERIM",
+                  "multivaluada"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La heurística STRIPS se orienta a planes parciales para las proposiciones de la meta.",
+                  "incorrect": "Incorrecto. ERIM clasifica problemas y multivaluada es un tipo de lógica."
+                },
+                "topic": "Sistemas basados en STRIPS",
+                "difficulty": "alta",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 74,
+                "text": "PDDL se basa en dos conjuntos: definición del dominio y definición del ______.",
+                "correct_option": "problema",
+                "incorrect_options": [
+                  "estado objetivo",
+                  "plan parcial"
+                ],
+                "feedback": {
+                  "correct": "Correcto. PDDL separa la definición del dominio y la definición del problema.",
+                  "incorrect": "Incorrecto. Estado objetivo y plan parcial son conceptos de planificación, pero no son los dos conjuntos de PDDL."
+                },
+                "topic": "Sistemas basados en STRIPS",
+                "difficulty": "alta",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "redes_tareas_jerarquicas_htn",
+            "title": "Redes de tareas jerárquicas HTN",
+            "questions": [
+              {
+                "id": 75,
+                "text": "Una red de tareas representa una ______ de tareas.",
+                "correct_option": "jerarquía",
+                "incorrect_options": [
+                  "tabla de verdad",
+                  "matriz de riesgo"
+                ],
+                "feedback": {
+                  "correct": "Correcto. HTN representa tareas organizadas jerárquicamente.",
+                  "incorrect": "Incorrecto. La red de tareas se define por su jerarquía de tareas."
+                },
+                "topic": "Redes de tareas jerárquicas HTN",
+                "difficulty": "fácil",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 76,
+                "text": "En HTN, una tarea ______ puede ejecutarse directamente.",
+                "correct_option": "primitiva",
+                "incorrect_options": [
+                  "compuesta",
+                  "multivaluada"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La tarea primitiva puede ejecutarse; la compuesta se descompone en subtareas.",
+                  "incorrect": "Incorrecto. Una tarea compuesta debe descomponerse antes de alcanzar una solución."
+                },
+                "topic": "Redes de tareas jerárquicas HTN",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 77,
+                "text": "El proceso de planificación HTN comienza descomponiendo la ______.",
+                "correct_option": "red de tarea inicial",
+                "incorrect_options": [
+                  "función heurística",
+                  "matriz ERIM"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La guía indica que HTN inicia con la descomposición de la red de tarea inicial.",
+                  "incorrect": "Incorrecto. HTN planifica por descomposición jerárquica de tareas, no por heurísticas o matrices de problemas."
+                },
+                "topic": "Redes de tareas jerárquicas HTN",
+                "difficulty": "alta",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 78,
+                "text": "En HTN se encuentra una solución cuando se descomponen todas las tareas ______.",
+                "correct_option": "compuestas",
+                "incorrect_options": [
+                  "verdaderas",
+                  "programadas"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La solución aparece cuando las tareas compuestas han sido descompuestas.",
+                  "incorrect": "Incorrecto. La descomposición de tareas compuestas es la condición de solución en HTN."
+                },
+                "topic": "Redes de tareas jerárquicas HTN",
+                "difficulty": "alta",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 79,
+                "text": "Al definir tareas en HTN se establecen precondiciones necesarias y ______.",
+                "correct_option": "efectos",
+                "incorrect_options": [
+                  "valores alfa",
+                  "dos premisas"
+                ],
+                "feedback": {
+                  "correct": "Correcto. HTN requiere precondiciones para ejecutar la tarea y efectos creados en el entorno.",
+                  "incorrect": "Incorrecto. Precondiciones y efectos son los dos elementos principales de una tarea en HTN."
+                },
+                "topic": "Redes de tareas jerárquicas HTN",
+                "difficulty": "alta",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          },
+          {
+            "id": "planificacion_multiples_agentes",
+            "title": "Planificación por múltiples agentes",
+            "questions": [
+              {
+                "id": 80,
+                "text": "Uno de los mayores retos para implementar planificación multiagente es desarrollar protocolos de ______ entre agentes.",
+                "correct_option": "comunicación",
+                "incorrect_options": [
+                  "refinamiento individual",
+                  "liderazgo democrático"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La guía identifica los protocolos de comunicación como uno de los mayores retos de la planificación multiagente.",
+                  "incorrect": "Incorrecto. Refinamiento individual y liderazgo democrático aparecen en FMAP, pero el reto general mencionado son los protocolos de comunicación."
+                },
+                "topic": "Planificación por múltiples agentes",
+                "difficulty": "media",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 81,
+                "text": "FMAP utiliza un POP y un algoritmo de búsqueda ______ multiagente.",
+                "correct_option": "A*",
+                "incorrect_options": [
+                  "BFS",
+                  "hill climbing"
+                ],
+                "feedback": {
+                  "correct": "Correcto. FMAP combina POP con búsqueda A* multiagente.",
+                  "incorrect": "Incorrecto. BFS y hill climbing son técnicas de búsqueda, pero la guía especifica A* multiagente para FMAP."
+                },
+                "topic": "Planificación por múltiples agentes",
+                "difficulty": "alta",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 82,
+                "text": "FMAP implementa una planificación hacia ______.",
+                "correct_option": "adelante",
+                "incorrect_options": [
+                  "atrás",
+                  "por subobjetivos"
+                ],
+                "feedback": {
+                  "correct": "Correcto. La guía indica que FMAP implementa planificación hacia adelante o Forward.",
+                  "incorrect": "Incorrecto. FMAP se describe como planificación hacia adelante, no hacia atrás ni por subobjetivos."
+                },
+                "topic": "Planificación por múltiples agentes",
+                "difficulty": "alta",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 83,
+                "text": "¿Cuál es la primera fase del algoritmo general de FMAP?",
+                "correct_option": "Intercambio de información entre los agentes",
+                "incorrect_options": [
+                  "Refinamiento individual",
+                  "Proceso de coordinación"
+                ],
+                "feedback": {
+                  "correct": "Correcto. FMAP inicia con intercambio de información entre los agentes.",
+                  "incorrect": "Incorrecto. Refinamiento individual y coordinación son fases posteriores del algoritmo FMAP."
+                },
+                "topic": "Planificación por múltiples agentes",
+                "difficulty": "alta",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 84,
+                "text": "La segunda fase de FMAP es el ______.",
+                "correct_option": "refinamiento individual",
+                "incorrect_options": [
+                  "intercambio de información entre los agentes",
+                  "proceso de coordinación"
+                ],
+                "feedback": {
+                  "correct": "Correcto. Después del intercambio de información, FMAP realiza refinamiento individual.",
+                  "incorrect": "Incorrecto. El intercambio de información es la primera fase y la coordinación es la tercera."
+                },
+                "topic": "Planificación por múltiples agentes",
+                "difficulty": "alta",
+                "question_status": "Pregunta generada"
+              },
+              {
+                "id": 85,
+                "text": "La tercera fase de FMAP es el proceso de ______.",
+                "correct_option": "coordinación",
+                "incorrect_options": [
+                  "intercambio de información",
+                  "refinamiento individual"
+                ],
+                "feedback": {
+                  "correct": "Correcto. El algoritmo general de FMAP incluye coordinación como tercera fase.",
+                  "incorrect": "Incorrecto. El intercambio de información es la primera fase y el refinamiento individual es la segunda."
+                },
+                "topic": "Planificación por múltiples agentes",
+                "difficulty": "alta",
+                "question_status": "Pregunta generada"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+};
